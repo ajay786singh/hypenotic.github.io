@@ -2,7 +2,18 @@
 layout: default
 ---
 
-<div class="page">
-  <h1 class="page-title">{{ page.title }}</h1>
-  {{ content }}
+<div class="wrapper">
+	<div class="banner">
+        <span class="bannerimage" style="background-image:url('http://hypenotic.com/wordpress/wp-content/uploads/2013/12/Buttons_2014_v3_ac_1400px_wshadow_BIGGER.jpg'); display: block;">
+            <span class="inner"></span>
+        </span>
+</div>
+
+<div class="container">
+    <article>
+		<div class="column-span-1">
+			<h1 class="page-title">{{ page.title }}</h1>
+			{{ content }}
+		</div>
+	</article>
 </div>
