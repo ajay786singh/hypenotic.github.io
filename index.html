@@ -1,183 +1,37 @@
+---
+layout: default
+title: Home
+---
 
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-	<title>Hypenotic | Marketing Strategy, Design &amp; Development for people doing good</title>
-                <meta property="og:site_name" content="Hypenotic" />
-            <meta property="og:description" content="Marketing Strategy, Design &amp; Development for people doing good" />
-            <meta property="og:type" content="website" />
-            <meta property="og:image" content="http://hypenotic.com/wordpress/wp-content/themes/hype/images/logo_hare.png">
-            <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
-    
-    <link rel='stylesheet' id='style-css'  href='http://hypenotic.com/wordpress/wp-content/themes/hype/style.css' type='text/css' media='all' />
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
 
-<!-- All in One SEO Pack 2.1 by Michael Torbert of Semper Fi Web Design[151,167] -->
-<meta name="keywords" content="100 in 1 day, parc, community, freeman dre and the kitchen party,100 in 1 day toronto,community,evergreen,freeman dre and the kitchen party,parc,the united way,apartment hunting, marketing, iterative, process, minimum viable product, renting, problem solving, social media ,damn good advice,process,interns,internships,journalism, education, digital strategy,user experience,ontario lakes project,web design, web development,web development,user research,social networking strategy, social networking tactics,social media" />
-<link rel='next' href='http://hypenotic.com/page/2/' />
+    <span class="post-date">{{ post.date | date_to_string }}</span>
 
-<link rel="canonical" href="http://hypenotic.com" />
-<!-- /all in one seo pack -->
-    
-    <script type="text/javascript">
-        (function() {
-        var config = {
-        kitId: 'set7rcj',
-        scriptTimeout: 3000
-        };
-        var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
-        })();
-  
-        //Google Analytics starts
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-1322597-2']);
-        _gaq.push(['_trackPageview']);
-
-        (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-   
-        //Pingdom starts   
-        var _prum = [['id', '52e46b89abe53d791f000000'],
-                     ['mark', 'firstbyte', (new Date()).getTime()]];
-        (function() {
-            var s = document.getElementsByTagName('script')[0]
-              , p = document.createElement('script');
-            p.async = 'async';
-            p.src = '//rum-static.pingdom.net/prum.min.js';
-            s.parentNode.insertBefore(p, s);
-        })();
-    </script>
-
-
-</head>
-
-<body class="home blog transforming-parking-space-into-public-space animated fadeIn offcanvas">
-<!-- Menu Section Starts -->
-    <!-- Left Menu Section -->
-    <div class="pushy pushy-right">
-        <a href="#" class="close-pushy" title="Close Menu">×</a>
-		<ul><li><a href="http://hypenotic.com/work/">Work</a></li>
-<li><a href="http://hypenotic.com/articles/">Articles</a></li>
-<li><a href="http://hypenotic.com/contact/">Contact</a></li>
-<li><a href="http://hypenotic.com/about/">About</a></li>
-<li><a href="http://hypenotic.com/services/">Services</a></li>
-</ul>    </div>
-<!-- Menu Section Ends -->
-<!-- Site Overlay for Pushy offcanvas to work -->
-<div class="site-overlay"></div>
-
-<header>
-    <nav>
-        <div class="site-width">
-            <div class="container">
-                <div class="column-span-3 logo">
-                    <h1><a href="http://hypenotic.com">Hypenotic</a></h1>
-                </div>
-                <div class="column-span-2 badge">
-                    <h1><a href="http://www.bcorporation.net/community/hypenotic" target="_blank">B Corporation</a></h1>
-                </div>
-                <div class="column-span-7" >
-                    <ul><li><a href="http://hypenotic.com/work/">Work</a></li>
-<li><a href="http://hypenotic.com/articles/">Articles</a></li>
-<li><a href="http://hypenotic.com/contact/">Contact</a></li>
-<li><a href="http://hypenotic.com/about/">About</a></li>
-<li><a href="http://hypenotic.com/services/">Services</a></li>
-</ul>                </div>
-                <div class="menu-btn">Menu</div>
-            </div>
-        </div>
-    </nav>
-</header>
-<div class="wrapper">
-<div class="banner">
-        <div class="bannertext">
-            <h1 class="front-headline">Marketing Strategy,<br> design & development <br>for people doing good</h1>
-        
-        </div>
-        <span class="bannerimage" style="background-image:url('http://hypenotic.com/wordpress/wp-content/themes/hype/images/banner_home.jpg'); display: block;">
-            <span class="inner"></span>
-        </span>
-    </div>
-
-<footer>
-	<div class="container">
-		<div class="column-isolate-3">
-			<h5>About us</h5>
-			<p>
-				Hypenotic is a marketing strategy, design & development firm that chooses to use its powers for good. We’re a certified founding member of B Corp in Canada, and if you don’t know what that is, it’s time you do.  Since ’98, we’ve helped a lot of interesting people do important things. We create relevant communications and useful experiences. <a href="/about">Find out more.</a>
-			</p>
-			<p>
-			<span class='symbol'><a href="https://twitter.com/hypenotic">circletwitterbird</a></span></a>
-			<span class='symbol'><a href="https://www.facebook.com/hypenotic">circlefacebook</a></span>
-			<span class='symbol'><a href="http://www.linkedin.com/company/hypenotic">circlelinkedin</a></span>
-			<span class='symbol'><a href="https://github.com/hypenotic">circlegithubalt</a></span>
-			<span class='symbol'><a href="https://plus.google.com/108348294269297908661/posts">circlegoogleplus</a></span>
-			<!--<span class='symbol'><a href="#">circleblip</a></span>-->
-			</p>
-		</div>
-		<div class="column-isolate-3">
-			<h5>Newsletter</h5>
-          	<p>Subscribe to our weekly newsletter!</p>
-			<form action="http://hypenotic.us1.list-manage.com/subscribe/post?u=24fdcfc8d7addaf3c603f28a9&amp;id=06041ce3ca" method="post">
-			<input type="hidden" value="2" name="group[2][2]" id="mce-group[2]-2-1">
-            <fieldset>
-                <ol>
-                <li><input name="EMAIL" placeholder="you@yourdomain.com" type="email" value=""  id="mce-EMAIL" required></li>
-              </ol>
-              <div><input type="submit" value="Yes"></div>
-            </fieldset>
-          </form>
-		</div>
-		<div class="column-isolate-3">
-			<h5>Articles</h5>
-			<ul><li><a href="http://hypenotic.com/transforming-parking-space-into-public-space/" >No idling: Transforming Parking Space into Public Space for 100 in 1 Day Toronto</a></li> <li><a href="http://hypenotic.com/how-looking-to-rent-in-toronto-can-teach-a-few-lessons-in-marketing/" >3 marketing skills sharpened by renting an apartment</a></li> <li><a href="http://hypenotic.com/why-pay-an-intern/" >Why pay an intern?</a></li> <li><a href="http://hypenotic.com/what-we-dont-see-is-short-circuiting-our-strategic-thinking/" >What we don't see is short circuiting our strategic thinking</a></li> <li><a href="http://hypenotic.com/what-if-journalists-ushered-a-new-media-era-into-education/" >Journalism: The new engine for education? </a></li> </ul>		</div>
-	</div>
-	<div class="container">
-		<div class="column-span-1">
-			<p class="small"><b><a href="/contact">Let's talk</a></b> | &copy; 1998 - 2014 Hypenotic. All Rights Reserved.</p>
-		</div>
-	</div>
-</footer>
+    {{ post.content }}
+  </div>
+  {% endfor %}
 </div>
 
-<script type='text/javascript' src='http://hypenotic.com/wordpress/wp-includes/js/jquery/jquery.js'></script>
-<script type='text/javascript' src='http://hypenotic.com/wordpress/wp-content/themes/hype/js/app.min.js'></script>
-
-<script>
-	var $container = jQuery('.isotope-container').imagesLoaded( function() {
-		function triggerIsotope() {
-		  	// don't proceed if $container has not been selected
-		  	if ( !$container ) {
-		    	return;
-		  	}
-			// init
-			$container.isotope({
-		  		// options
-		  		itemSelector: '.item',
-		  		layoutMode: 'masonry',
-				masonry: {
-		     		columnWidth: '.grid-sizer',
-		    		gutter: 20,
-		    		isFitWidth: true
-		  		}
-			});
-		}
-		// trigger Isotope on document ready
-		jQuery(function(){
-			$container = jQuery('.isotope-container');
-			triggerIsotope();
-		});
-		// trigger Isotope when fonts have loaded
-		Typekit.load({
-			active: triggerIsotope,
-			inactive: triggerIsotope
-		});
-	});
-</script>
-
-</body>
-</html>
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
