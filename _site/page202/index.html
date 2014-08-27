@@ -13,15 +13,11 @@
     <meta property="og:description" content="" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="">
-    <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
     
-    <link rel='stylesheet' id='style-css'  href='http://hypenotic.com/wordpress/wp-content/themes/hype/style.css' type='text/css' media='all' />
-    <!-- Icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="public/apple-touch-icon-precomposed.png">
-    <link rel="shortcut icon" href="public/favicon.ico">
-
-    <!-- RSS -->
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="atom.xml">
+    <link rel='stylesheet' id='style-css'  href='http://localhost:4000/style.css' type='text/css' media='all' />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/public/apple-touch-icon-precomposed.png">
+    <link rel="shortcut icon" href="http://localhost:4000/public/favicon.ico">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://localhost:4000/atom.xml">
     
     <script type="text/javascript">
         (function() {
@@ -31,145 +27,67 @@
         };
         var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
         })();
-
     </script>
+    
 </head>
 
-<body>
-<!-- Menu Section Starts -->
-    <!-- Left Menu Section -->
-    <div class="pushy pushy-right">
-        <a href="#" class="close-pushy" title="Close Menu">×</a>
-        <ul>
-            <li><a href="http://hypenotic.com/work/">Work</a></li>
-            <li><a href="articles/">Articles</a></li>
-            <li><a href="/contact/">Contact</a></li>
-            <li><a href="/about/">About</a></li>
-            <li><a href="/services/">Services</a></li>
-        </ul>    
-    </div>
-<!-- Menu Section Ends -->
-<!-- Site Overlay for Pushy offcanvas to work -->
-<div class="site-overlay"></div>
-
-<header>
-    <nav>
-        <div class="site-width">
-            <div class="container">
-                <div class="column-span-3 logo">
-                    <h1><a href="">Hypenotic</a></h1>
-                </div>
-                <div class="column-span-2 badge">
-                    <h1><a href="http://www.bcorporation.net/community/hypenotic" target="_blank">B Corporation</a></h1>
-                </div>
-                <div class="column-span-7" >
-                    <ul>
-                        <li><a href="/work/">Work</a></li>
-                        <li><a href="/articles/">Articles</a></li>
-                        <li><a href="/contact/">Contact</a></li>
-                        <li><a href="/about/">About</a></li>
-                        <li><a href="/services/">Services</a></li>
-                    </ul>                
-                </div>
-                <div class="menu-btn">Menu</div>
+<body class="wrap push">
+<section role="banner">
+    <header>
+        <div class="logo">
+            <a href="http://localhost:4000"><img src="http://localhost:4000/images/logo.png"></a>
+        </div>     
+        <a href="#menu" class="menu-link">menu &#9776;</a>        
+        <nav id="menu" role="navigation">
+            <ul>
+                <li><a href="http://localhost:4000/work/">Work</a></li>
+                <li><a href="http://localhost:4000/articles/">Articles</a></li>
+                <li><a href="http://localhost:4000/contact/">Contact</a></li>
+                <li><a href="http://localhost:4000/about/">About</a></li>
+                <li><a href="http://localhost:4000/services/">Services</a></li>
+            </ul>
+            <div class="social-share">
+                <span class='symbol'><a href="https://twitter.com/hypenotic">twitterbird</a></span></a>
+                <span class='symbol'><a href="https://www.facebook.com/hypenotic">facebook</a></span>
+                <span class='symbol'><a href="http://www.linkedin.com/company/hypenotic">linkedin</a></span>
+                <span class='symbol'><a href="https://github.com/hypenotic">githubalt</a></span>
+                <span class='symbol'><a href="https://plus.google.com/108348294269297908661/posts">googleplus</a></span>
             </div>
-        </div>
-    </nav>
-</header>
-
-<div class="posts">
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/exploding-growth-of-mobile-email-what-it-means-for-you/">
-        Exploding Growth of Mobile Email: What it means for you.
-      </a>
-    </h1>
-
-    <span class="post-date">10 Feb 2012</span>
-
-    <p>Does anyone read email on their desktop anymore? According to the report by <a href="http://www.returnpath.net/blog/intheknow/2011/05/mobile-email-study-finds-81-growth-in-email-activity-on-mobile-ipad-tablet-viewership-increasing/" target="_blank">Return Path</a>, there was an 81% growth in folks viewing email on their mobile device during a 6-month period last year. The <a href="http://litmus.com/blog/email-client-market-share-infograph" target="_blank">Litmus report</a> released in September 2011 was even higher at 150% growth. Whatever the number, viewing email on mobile is rocketing.</p>
-
-<div style="background-color: #eee1b2; border: 1px dotted #ccc;">
-  <p style="padding: 20px;">
-    <strong>UPDATE: February 11, 2012</strong> ComScore released its annual <a href="http://www.comscore.com/Press_Events/Presentations_Whitepapers/2012/2012_US_Digital_Future_in_Focus">US Digital Future in Focus</a> report this week, offering a year-end wrap of  trends its tracked throughout the past year.  According to the report, web-based email use among 12-17 year olds dropped 31% in the past year, while use among those 18 to 24 saw an even bigger drop of 34%. Some of that can no doubt be attributed to Facebook and other email alternatives, but a big factor is the growth of email use on mobile devices; both of those age groups saw double-digit growth in that respect, with <strong>mobile email use jumping 32% among 18 to 24 year olds</strong>.
-  </p>
-</div>
-
-<p>&nbsp;</p>
-
-<p>What does this mean? Well, for marketers and content producers, if you aren&#8217;t thinking about how your content is being viewed on a small screen then you&#8217;re missing the boat. Don&#8217;t worry, it&#8217;s a pretty big boat. It&#8217;s going to be holding a lot of people in 2012 and beyond. Justine Jordan, Marketing Director from Litmus writes,</p>
-
-<blockquote>
-<p>&#8220;Email remains the strongest online activity around the globe. In fact, email users are expected to reach 3.8 billion by 2014. That is nearly half of the world&#8217;s current population, and a significant climb from 2.9 billion reported users in 2010. Now that most are equipped with smartphones and ipads, is anyone still logging on to view their messages on a monitor?&#8221;</p>
-</blockquote>
-
-<p>The popular email marketing service, Campaign Monitor, released their 2011 report which saw an increase in mobile email usage on iPhone, iPad and Android from &#8220;4% of the market to almost 20% in just two years.&#8221; Using the <a href="http://www.campaignmonitor.com/blog/post/3495/the-rise-of-mobile-email/">chart from Campaign Monitor</a> and extending the time frame and general trend,  it could be around Spring 2013 when viewing email on mobile devices out numbers desktop and webmail clients.</p>
-
-<div id="attachment_8432" style="width: 590px" class="wp-caption aligncenter">
-  <a href="http://hypenotic.com/wordpress/wp-content/uploads/2012/02/mobile-newsletters-chart.jpg"><img class="size-medium wp-image-8432 " title="mobile-newsletters-chart" alt="" src="http://hypenotic.com/wordpress/wp-content/uploads/2012/02/mobile-newsletters-chart-580x316.jpg" width="580" height="316" /></a><p class="wp-caption-text">
-    Author&#8217;s prediction based on Campaign Monitor Chart
-  </p>
-</div>
-
-<p>Jarrod, a commenter on the article &#8220;<a href="http://www.campaignmonitor.com/blog/post/3495/the-rise-of-mobile-email/">The prolific rise of mobile email</a>&#8221; nails it with this point:</p>
-
-<blockquote>
-<p>&#8220;I’m hoping to implement a mobile design later this month, or early July which is based on no data at all &#8211; only industry statistics. If even a fraction of the above is true for our customer base, that can mean thousands of people are viewing our email in their mobile when it is not optimised for it.&#8221;</p>
-</blockquote>
-
-<p>For <strong>marketing and content producers</strong> who are developing their email newsletters in-house or hiring an agency for the management, design or delivery it means:</p>
-
-<ol>
-<li> Having a general understanding of how the user experience on each device is different and how it may influence the content.</li>
-<li> Being aware of where your enewsletter links click to? If they go to a non-optimized website that is not mobile friendly, what&#8217;s the point. The user will not only move on but might even unsubscribe.</li>
-<li> Not marketing or producing in a bubble. Talk to the designer and developer and learn about what works and what doesn&#8217;t in terms of email newsletter best practices.</li>
-</ol>
-
-<p>For the <strong>web designer and/or developer</strong> it means:</p>
-
-<ol>
-<li> Learning about responsive design, media queries, best practices and how it impacts the user experience.</li>
-<li> Knowing about device ergonomics and realizing some areas of the screen are easier to get to than others. This can really influence design and where you put action buttons or links.</li>
-<li> Educate. This often gets overlooked by developers, but if you can educate your clients and the people around you in designing for mobile then half your job is done.</li>
-</ol>
-
-<p>If you want to get in deeper there are a ton of resources but you can start with &#8220;<a href="http://coding.smashingmagazine.com/2011/08/18/from-monitor-to-mobile-optimizing-email-newsletters-with-css/">From Monitor to Mobile: Optimizing Email Newsletters with CCS</a>&#8221; and &#8220;<a href="http://stylecampaign.com/blog/2011/07/finger-snafu/">Finger Snafu &#8211; 10 frequent misfires when designing emails for touch</a>&#8220;.</p>
-
-<p>What are you doing to optimize your email newsletter for mobile?</p>
-
-  </div>
-  
-</div>
-
-<div class="pagination">
-  
-    <a class="pagination-item older" href="page203">Older</a>
-  
-  
-    
-      <a class="pagination-item newer" href="page201">Newer</a>
-    
-  
-</div>
-
+        </nav>
+    </header>
+</section>
+<section role="slider">
+	<header>
+		<hgroup>
+			<small>Ver 4.1 Beta (Always be testing)</small>
+			<h1>Marketing strategy, design & development for people doing good</h1>
+			<figure>
+				<img src="http://localhost:4000/images/bcorp.png"><br>
+			</figure>
+			<small><b>A founding Canadian <a href="http://www.bcorporation.net/community/hypenotic">B Corp</a></b>
+				<br>Toronto &#149; Montreal
+            	<br>Est. 1998
+			</small>
+		</hgroup>
+	</header>
+</section>
 <footer>
-	<div class="container">
-		<div class="column-isolate-3">
+	<div class="footer-inner">
+		<div class="content">
 			<h5>About us</h5>
 			<p>
 				Hypenotic is a marketing strategy, design & development firm that chooses to use its powers for good. We’re a certified founding member of B Corp in Canada, and if you don’t know what that is, it’s time you do.  Since ’98, we’ve helped a lot of interesting people do important things. We create relevant communications and useful experiences. <a href="/about">Find out more.</a>
 			</p>
 			<p>
-			<span class='symbol'><a href="https://twitter.com/hypenotic">circletwitterbird</a></span></a>
-			<span class='symbol'><a href="https://www.facebook.com/hypenotic">circlefacebook</a></span>
-			<span class='symbol'><a href="http://www.linkedin.com/company/hypenotic">circlelinkedin</a></span>
-			<span class='symbol'><a href="https://github.com/hypenotic">circlegithubalt</a></span>
-			<span class='symbol'><a href="https://plus.google.com/108348294269297908661/posts">circlegoogleplus</a></span>
-	
+				<span class='symbol'><a href="https://twitter.com/hypenotic">circletwitterbird</a></span></a>
+				<span class='symbol'><a href="https://www.facebook.com/hypenotic">circlefacebook</a></span>
+				<span class='symbol'><a href="http://www.linkedin.com/company/hypenotic">circlelinkedin</a></span>
+				<span class='symbol'><a href="https://github.com/hypenotic">circlegithubalt</a></span>
+				<span class='symbol'><a href="https://plus.google.com/108348294269297908661/posts">circlegoogleplus</a></span>
 			</p>
 		</div>
-		<div class="column-isolate-3">
+
+		<div class="content">
 			<h5>Newsletter</h5>
           	<p>Subscribe to our weekly newsletter!</p>
 			<form action="http://hypenotic.us1.list-manage.com/subscribe/post?u=24fdcfc8d7addaf3c603f28a9&amp;id=06041ce3ca" method="post">
@@ -182,31 +100,36 @@
             </fieldset>
           </form>
 		</div>
-		<div class="column-isolate-3">
+
+
+		<div class="content">
 			<h5>Articles</h5>
 			<ul>  
 				  
-				   <li><a href="/how-looking-to-rent-in-toronto-can-teach-a-few-lessons-in-marketing/">How looking to rent in Toronto can teach a few lessons in marketing</a></li>  
+				   <li><a href="http://localhost:4000/how-looking-to-rent-in-toronto-can-teach-a-few-lessons-in-marketing/">How looking to rent in Toronto can teach a few lessons in marketing</a></li>  
 				  
-				   <li><a href="/go-home-lake-ontario-lakes-project/">Go Home Lake: Ontario Lakes Project</a></li>  
+				   <li><a href="http://localhost:4000/go-home-lake-ontario-lakes-project/">Go Home Lake: Ontario Lakes Project</a></li>  
 				  
-				   <li><a href="/the-kitchen-party-approach-to-web-design-dev/">The Kitchen Party approach to Web Design &#038; Dev</a></li>  
+				   <li><a href="http://localhost:4000/the-kitchen-party-approach-to-web-design-dev/">The Kitchen Party approach to Web Design &#038; Dev</a></li>  
 				  
-				   <li><a href="/what-it-means-to-beta-test-2/">What it Means to Beta Test</a></li>  
+				   <li><a href="http://localhost:4000/what-it-means-to-beta-test-2/">What it Means to Beta Test</a></li>  
 				  
-				   <li><a href="/social-media-is-a-tactic-not-a-strategy/">Social media is a tactic, not a strategy</a></li>  
+				   <li><a href="http://localhost:4000/social-media-is-a-tactic-not-a-strategy/">Social media is a tactic, not a strategy</a></li>  
 				  
 			</ul>
 		</div>
+		
 	</div>
-	<div class="container">
-		<div class="column-span-1">
-			<p class="small"><b><a href="/contact">Let's talk</a></b> | &copy; 1998 - 2014 Hypenotic. All Rights Reserved.</p>
-		</div>
+	<div class="footer-inner">
+		<p class="small"><b><a href="/contact">Let's talk</a></b> | &copy; 1998 - 2014 Hypenotic. All Rights Reserved.</p>
 	</div>
 </footer>
 
-</div>
+<script>
+    jQuery(document).ready(function() {
+           jQuery('.menu-link').bigSlide();
+    });
+</script>
 
-  </body>
+</body>
 </html>

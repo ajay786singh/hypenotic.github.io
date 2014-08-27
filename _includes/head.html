@@ -15,15 +15,11 @@
     <meta property="og:description" content="" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="">
-    <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
     
-    <link rel='stylesheet' id='style-css'  href='http://hypenotic.com/wordpress/wp-content/themes/hype/style.css' type='text/css' media='all' />
-    <!-- Icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}public/apple-touch-icon-precomposed.png">
-    <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
-
-    <!-- RSS -->
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.baseurl }}atom.xml">
+    <link rel='stylesheet' id='style-css'  href='{{ site.baseurl }}/style.css' type='text/css' media='all' />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png">
+    <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.baseurl }}/atom.xml">
     
     <script type="text/javascript">
         (function() {
@@ -33,48 +29,32 @@
         };
         var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
         })();
-
     </script>
+    
 </head>
 
-<body>
-<!-- Menu Section Starts -->
-    <!-- Left Menu Section -->
-    <div class="pushy pushy-right">
-        <a href="#" class="close-pushy" title="Close Menu">×</a>
-        <ul>
-            <li><a href="http://hypenotic.com/work/">Work</a></li>
-            <li><a href="{{ site.baseurl }}articles/">Articles</a></li>
-            <li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
-            <li><a href="{{ site.baseurl }}/about/">About</a></li>
-            <li><a href="{{ site.baseurl }}/services/">Services</a></li>
-        </ul>    
-    </div>
-<!-- Menu Section Ends -->
-<!-- Site Overlay for Pushy offcanvas to work -->
-<div class="site-overlay"></div>
-
-<header>
-    <nav>
-        <div class="site-width">
-            <div class="container">
-                <div class="column-span-3 logo">
-                    <h1><a href="{{ site.baseurl }}">Hypenotic</a></h1>
-                </div>
-                <div class="column-span-2 badge">
-                    <h1><a href="http://www.bcorporation.net/community/hypenotic" target="_blank">B Corporation</a></h1>
-                </div>
-                <div class="column-span-7" >
-                    <ul>
-                        <li><a href="{{ site.baseurl }}/work/">Work</a></li>
-                        <li><a href="{{ site.baseurl }}/articles/">Articles</a></li>
-                        <li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
-                        <li><a href="{{ site.baseurl }}/about/">About</a></li>
-                        <li><a href="{{ site.baseurl }}/services/">Services</a></li>
-                    </ul>                
-                </div>
-                <div class="menu-btn">Menu</div>
+<body class="wrap push">
+<section role="banner">
+    <header>
+        <div class="logo">
+            <a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}/images/logo.png"></a>
+        </div>     
+        <a href="#menu" class="menu-link">menu &#9776;</a>        
+        <nav id="menu" role="navigation">
+            <ul>
+                <li><a href="{{ site.baseurl }}/work/">Work</a></li>
+                <li><a href="{{ site.baseurl }}/articles/">Articles</a></li>
+                <li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
+                <li><a href="{{ site.baseurl }}/about/">About</a></li>
+                <li><a href="{{ site.baseurl }}/services/">Services</a></li>
+            </ul>
+            <div class="social-share">
+                <span class='symbol'><a href="https://twitter.com/hypenotic">twitterbird</a></span></a>
+                <span class='symbol'><a href="https://www.facebook.com/hypenotic">facebook</a></span>
+                <span class='symbol'><a href="http://www.linkedin.com/company/hypenotic">linkedin</a></span>
+                <span class='symbol'><a href="https://github.com/hypenotic">githubalt</a></span>
+                <span class='symbol'><a href="https://plus.google.com/108348294269297908661/posts">googleplus</a></span>
             </div>
-        </div>
-    </nav>
-</header>
+        </nav>
+    </header>
+</section>

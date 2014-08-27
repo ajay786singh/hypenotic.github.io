@@ -1,20 +1,20 @@
 <footer>
-	<div class="container">
-		<div class="column-isolate-3">
+	<div class="footer-inner">
+		<div class="content">
 			<h5>About us</h5>
 			<p>
 				Hypenotic is a marketing strategy, design & development firm that chooses to use its powers for good. We’re a certified founding member of B Corp in Canada, and if you don’t know what that is, it’s time you do.  Since ’98, we’ve helped a lot of interesting people do important things. We create relevant communications and useful experiences. <a href="/about">Find out more.</a>
 			</p>
 			<p>
-			<span class='symbol'><a href="https://twitter.com/hypenotic">circletwitterbird</a></span></a>
-			<span class='symbol'><a href="https://www.facebook.com/hypenotic">circlefacebook</a></span>
-			<span class='symbol'><a href="http://www.linkedin.com/company/hypenotic">circlelinkedin</a></span>
-			<span class='symbol'><a href="https://github.com/hypenotic">circlegithubalt</a></span>
-			<span class='symbol'><a href="https://plus.google.com/108348294269297908661/posts">circlegoogleplus</a></span>
-	
+				<span class='symbol'><a href="https://twitter.com/hypenotic">circletwitterbird</a></span></a>
+				<span class='symbol'><a href="https://www.facebook.com/hypenotic">circlefacebook</a></span>
+				<span class='symbol'><a href="http://www.linkedin.com/company/hypenotic">circlelinkedin</a></span>
+				<span class='symbol'><a href="https://github.com/hypenotic">circlegithubalt</a></span>
+				<span class='symbol'><a href="https://plus.google.com/108348294269297908661/posts">circlegoogleplus</a></span>
 			</p>
 		</div>
-		<div class="column-isolate-3">
+
+		<div class="content">
 			<h5>Newsletter</h5>
           	<p>Subscribe to our weekly newsletter!</p>
 			<form action="http://hypenotic.us1.list-manage.com/subscribe/post?u=24fdcfc8d7addaf3c603f28a9&amp;id=06041ce3ca" method="post">
@@ -27,7 +27,9 @@
             </fieldset>
           </form>
 		</div>
-		<div class="column-isolate-3">
+
+
+		<div class="content">
 			<h5>Articles</h5>
 			<ul>  
 				{% for post in site.posts limit:5 %}  
@@ -35,15 +37,18 @@
 				{% endfor %}  
 			</ul>
 		</div>
+		
 	</div>
-	<div class="container">
-		<div class="column-span-1">
-			<p class="small"><b><a href="/contact">Let's talk</a></b> | &copy; 1998 - {{ site.time | date: '%Y' }} Hypenotic. All Rights Reserved.</p>
-		</div>
+	<div class="footer-inner">
+		<p class="small"><b><a href="/contact">Let's talk</a></b> | &copy; 1998 - {{ site.time | date: '%Y' }} Hypenotic. All Rights Reserved.</p>
 	</div>
 </footer>
 
-</div>
+<script>
+    jQuery(document).ready(function() {
+           jQuery('.menu-link').bigSlide();
+    });
+</script>
 
-  </body>
+</body>
 </html>

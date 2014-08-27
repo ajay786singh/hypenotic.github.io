@@ -13,15 +13,11 @@
     <meta property="og:description" content="" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="">
-    <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
     
-    <link rel='stylesheet' id='style-css'  href='http://hypenotic.com/wordpress/wp-content/themes/hype/style.css' type='text/css' media='all' />
-    <!-- Icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="public/apple-touch-icon-precomposed.png">
-    <link rel="shortcut icon" href="public/favicon.ico">
-
-    <!-- RSS -->
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="atom.xml">
+    <link rel='stylesheet' id='style-css'  href='http://localhost:4000/style.css' type='text/css' media='all' />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/public/apple-touch-icon-precomposed.png">
+    <link rel="shortcut icon" href="http://localhost:4000/public/favicon.ico">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://localhost:4000/atom.xml">
     
     <script type="text/javascript">
         (function() {
@@ -31,121 +27,67 @@
         };
         var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
         })();
-
     </script>
+    
 </head>
 
-<body>
-<!-- Menu Section Starts -->
-    <!-- Left Menu Section -->
-    <div class="pushy pushy-right">
-        <a href="#" class="close-pushy" title="Close Menu">×</a>
-        <ul>
-            <li><a href="http://hypenotic.com/work/">Work</a></li>
-            <li><a href="articles/">Articles</a></li>
-            <li><a href="/contact/">Contact</a></li>
-            <li><a href="/about/">About</a></li>
-            <li><a href="/services/">Services</a></li>
-        </ul>    
-    </div>
-<!-- Menu Section Ends -->
-<!-- Site Overlay for Pushy offcanvas to work -->
-<div class="site-overlay"></div>
-
-<header>
-    <nav>
-        <div class="site-width">
-            <div class="container">
-                <div class="column-span-3 logo">
-                    <h1><a href="">Hypenotic</a></h1>
-                </div>
-                <div class="column-span-2 badge">
-                    <h1><a href="http://www.bcorporation.net/community/hypenotic" target="_blank">B Corporation</a></h1>
-                </div>
-                <div class="column-span-7" >
-                    <ul>
-                        <li><a href="/work/">Work</a></li>
-                        <li><a href="/articles/">Articles</a></li>
-                        <li><a href="/contact/">Contact</a></li>
-                        <li><a href="/about/">About</a></li>
-                        <li><a href="/services/">Services</a></li>
-                    </ul>                
-                </div>
-                <div class="menu-btn">Menu</div>
+<body class="wrap push">
+<section role="banner">
+    <header>
+        <div class="logo">
+            <a href="http://localhost:4000"><img src="http://localhost:4000/images/logo.png"></a>
+        </div>     
+        <a href="#menu" class="menu-link">menu &#9776;</a>        
+        <nav id="menu" role="navigation">
+            <ul>
+                <li><a href="http://localhost:4000/work/">Work</a></li>
+                <li><a href="http://localhost:4000/articles/">Articles</a></li>
+                <li><a href="http://localhost:4000/contact/">Contact</a></li>
+                <li><a href="http://localhost:4000/about/">About</a></li>
+                <li><a href="http://localhost:4000/services/">Services</a></li>
+            </ul>
+            <div class="social-share">
+                <span class='symbol'><a href="https://twitter.com/hypenotic">twitterbird</a></span></a>
+                <span class='symbol'><a href="https://www.facebook.com/hypenotic">facebook</a></span>
+                <span class='symbol'><a href="http://www.linkedin.com/company/hypenotic">linkedin</a></span>
+                <span class='symbol'><a href="https://github.com/hypenotic">githubalt</a></span>
+                <span class='symbol'><a href="https://plus.google.com/108348294269297908661/posts">googleplus</a></span>
             </div>
-        </div>
-    </nav>
-</header>
-
-<div class="posts">
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/the-kitchen-party-approach-to-web-design-dev/">
-        The Kitchen Party approach to Web Design &#038; Dev
-      </a>
-    </h1>
-
-    <span class="post-date">22 Jan 2014</span>
-
-    <p>We have people over for dinner often. Invariably, my wife asks me to please prepare in advance as much as possible.</p>
-
-<p>She doesn&#8217;t like the mayhem of preparation–at least four adults standing in the kitchen, some preparing, some just sipping, with kids occasionally nipping through.</p>
-
-<p>I do. I mean, I can put out some snackables and get some beverages ready for when guests show up, and maybe prepare things that need to be measured in advance. But I like cooking <em>with</em> people.</p>
-
-<p>I figure just about everyone gets into the vibe of a kitchen party, most people enjoy cooking together and even people who don&#8217;t habitually enjoy it mind it less at other&#8217;s people&#8217;s houses. I&#8217;d go so far as to say that what really bothers my wife is the anticipation of mayhem that either never comes or is enjoyable if it does.</p>
-
-<p>This version of our website is like one of my dinner parties.</p>
-
-<p>We&#8217;ve got most of the heavy features and enough key content in place, but we&#8217;ve invited people into the kitchen before it&#8217;s done. If we waited until it was perfect, we&#8217;d never launch.</p>
-
-<p>And like the kitchen party, the mayhem doesn&#8217;t feel that bad. In fact, it&#8217;s helping us feel the parts that need attention acutely.</p>
-
-<p>This approach is also a testament to our belief that software is never actually &#8216;finished&#8217;. &#8216;Finished&#8217; is a mythical state that misses the point and opportunity (inherent in the digital context) to always be learning from, iterating on and maximizing your returns from your website. Rather, your website is simply in whatever state of being able to solve your user&#8217;s needs and business goals that it is.</p>
-
-<p><em>This version</em> is an improvement in the state of our last one because:</p>
-
-<ul>
-<li>  <strong>The code is leaner:</strong> Google&#8217;s page speed rank has gone from red to yellow and is on it&#8217;s way to green <strong>[Update: It&#39;s now <span style="color: #008000;">green</span>–<a title="Hypenotic Google Page Speed Link" href="http://hypn.tc/1eswXcm" target="_blank">85/100 for Mobile and 95/100 for Desktop</a>]</strong></li>
-<li>  <strong>It&#8217;s responsive:</strong> Like most people, about 30% of our traffic comes from mobile operating systems</li>
-<li>  <strong>The Content is leaner:</strong> We&#8217;ve pared down the content with specific audiences in mind</li>
-</ul>
-
-<p>Like the messy live action kitchen, there are plenty of kinks to work out. But we&#8217;re going to work them out live. Together. And keep you in the loop. Welcome!</p>
-
-  </div>
-  
-</div>
-
-<div class="pagination">
-  
-    <a class="pagination-item older" href="page4">Older</a>
-  
-  
-    
-      <a class="pagination-item newer" href="page2">Newer</a>
-    
-  
-</div>
-
+        </nav>
+    </header>
+</section>
+<section role="slider">
+	<header>
+		<hgroup>
+			<small>Ver 4.1 Beta (Always be testing)</small>
+			<h1>Marketing strategy, design & development for people doing good</h1>
+			<figure>
+				<img src="http://localhost:4000/images/bcorp.png"><br>
+			</figure>
+			<small><b>A founding Canadian <a href="http://www.bcorporation.net/community/hypenotic">B Corp</a></b>
+				<br>Toronto &#149; Montreal
+            	<br>Est. 1998
+			</small>
+		</hgroup>
+	</header>
+</section>
 <footer>
-	<div class="container">
-		<div class="column-isolate-3">
+	<div class="footer-inner">
+		<div class="content">
 			<h5>About us</h5>
 			<p>
 				Hypenotic is a marketing strategy, design & development firm that chooses to use its powers for good. We’re a certified founding member of B Corp in Canada, and if you don’t know what that is, it’s time you do.  Since ’98, we’ve helped a lot of interesting people do important things. We create relevant communications and useful experiences. <a href="/about">Find out more.</a>
 			</p>
 			<p>
-			<span class='symbol'><a href="https://twitter.com/hypenotic">circletwitterbird</a></span></a>
-			<span class='symbol'><a href="https://www.facebook.com/hypenotic">circlefacebook</a></span>
-			<span class='symbol'><a href="http://www.linkedin.com/company/hypenotic">circlelinkedin</a></span>
-			<span class='symbol'><a href="https://github.com/hypenotic">circlegithubalt</a></span>
-			<span class='symbol'><a href="https://plus.google.com/108348294269297908661/posts">circlegoogleplus</a></span>
-	
+				<span class='symbol'><a href="https://twitter.com/hypenotic">circletwitterbird</a></span></a>
+				<span class='symbol'><a href="https://www.facebook.com/hypenotic">circlefacebook</a></span>
+				<span class='symbol'><a href="http://www.linkedin.com/company/hypenotic">circlelinkedin</a></span>
+				<span class='symbol'><a href="https://github.com/hypenotic">circlegithubalt</a></span>
+				<span class='symbol'><a href="https://plus.google.com/108348294269297908661/posts">circlegoogleplus</a></span>
 			</p>
 		</div>
-		<div class="column-isolate-3">
+
+		<div class="content">
 			<h5>Newsletter</h5>
           	<p>Subscribe to our weekly newsletter!</p>
 			<form action="http://hypenotic.us1.list-manage.com/subscribe/post?u=24fdcfc8d7addaf3c603f28a9&amp;id=06041ce3ca" method="post">
@@ -158,31 +100,36 @@
             </fieldset>
           </form>
 		</div>
-		<div class="column-isolate-3">
+
+
+		<div class="content">
 			<h5>Articles</h5>
 			<ul>  
 				  
-				   <li><a href="/how-looking-to-rent-in-toronto-can-teach-a-few-lessons-in-marketing/">How looking to rent in Toronto can teach a few lessons in marketing</a></li>  
+				   <li><a href="http://localhost:4000/how-looking-to-rent-in-toronto-can-teach-a-few-lessons-in-marketing/">How looking to rent in Toronto can teach a few lessons in marketing</a></li>  
 				  
-				   <li><a href="/go-home-lake-ontario-lakes-project/">Go Home Lake: Ontario Lakes Project</a></li>  
+				   <li><a href="http://localhost:4000/go-home-lake-ontario-lakes-project/">Go Home Lake: Ontario Lakes Project</a></li>  
 				  
-				   <li><a href="/the-kitchen-party-approach-to-web-design-dev/">The Kitchen Party approach to Web Design &#038; Dev</a></li>  
+				   <li><a href="http://localhost:4000/the-kitchen-party-approach-to-web-design-dev/">The Kitchen Party approach to Web Design &#038; Dev</a></li>  
 				  
-				   <li><a href="/what-it-means-to-beta-test-2/">What it Means to Beta Test</a></li>  
+				   <li><a href="http://localhost:4000/what-it-means-to-beta-test-2/">What it Means to Beta Test</a></li>  
 				  
-				   <li><a href="/social-media-is-a-tactic-not-a-strategy/">Social media is a tactic, not a strategy</a></li>  
+				   <li><a href="http://localhost:4000/social-media-is-a-tactic-not-a-strategy/">Social media is a tactic, not a strategy</a></li>  
 				  
 			</ul>
 		</div>
+		
 	</div>
-	<div class="container">
-		<div class="column-span-1">
-			<p class="small"><b><a href="/contact">Let's talk</a></b> | &copy; 1998 - 2014 Hypenotic. All Rights Reserved.</p>
-		</div>
+	<div class="footer-inner">
+		<p class="small"><b><a href="/contact">Let's talk</a></b> | &copy; 1998 - 2014 Hypenotic. All Rights Reserved.</p>
 	</div>
 </footer>
 
-</div>
+<script>
+    jQuery(document).ready(function() {
+           jQuery('.menu-link').bigSlide();
+    });
+</script>
 
-  </body>
+</body>
 </html>

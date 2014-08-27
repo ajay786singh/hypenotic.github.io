@@ -1,0 +1,99 @@
+//Mobile first - Global Settings
+$susy: (columns: 6, gutters: 1, gutter-position: inside);
+
+//Layouts
+$desktop: layout(12);
+
+@include border-box-sizing;
+
+.container, .isotope-container {
+    @include container(80em);
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.isotope-container .item,
+.isotope-container .grid-sizer {
+    margin-bottom: 30px;
+    margin-right: 10px;
+    img {
+        width: 100%;
+    }
+    @include susy-breakpoint(55em, $desktop) {
+        margin-bottom: 30px;
+        width: 358px;
+    }
+}
+
+
+.item {
+    background-color: $white;
+    border-bottom: 1px solid #ccc;
+    &:hover {
+        background-color: #FAFCF8;
+    }
+    h6, .meta, .small {
+        padding: 0 30px 0 30px;
+    }
+    h6 {
+        @include adjust-leading-to(1, 18px);
+        margin: 0 auto rhythm(0.5, 16px);
+        text-align: center;
+    }
+}
+
+.wrapper {
+    @include transition(transform 500ms ease);
+    background: $body_bg;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+}
+
+header {
+    @include transition(transform 500ms ease);
+    position: relative;
+    z-index: 2000;
+}
+
+section {
+    margin-top: 4em;
+    padding-top: 2em;
+    @include susy-breakpoint(55em, $desktop) {
+        margin-top: 6em;
+        padding-top: 4em;
+    }
+}
+
+.logo h1 {
+    background-image: url(images/logo_hare.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 0;
+    margin-top: 22px;
+    max-width: 250px;
+    padding: 0;
+    width: 100%;
+}
+
+.logo h1 a {
+    display: block;
+    text-indent: -9999px;
+}
+
+.badge h1 {
+    //margin: 3px;
+    max-width: 40px;
+    background-image: url(images/bcorp_white.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 0;
+    margin: 6px 0 0 0;
+    padding: 0;
+    width: 100%;
+}
+
+.badge h1 a {
+    display: block;
+    text-indent: -9999px;
+}

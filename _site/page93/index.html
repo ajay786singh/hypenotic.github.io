@@ -13,15 +13,11 @@
     <meta property="og:description" content="" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="">
-    <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
     
-    <link rel='stylesheet' id='style-css'  href='http://hypenotic.com/wordpress/wp-content/themes/hype/style.css' type='text/css' media='all' />
-    <!-- Icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="public/apple-touch-icon-precomposed.png">
-    <link rel="shortcut icon" href="public/favicon.ico">
-
-    <!-- RSS -->
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="atom.xml">
+    <link rel='stylesheet' id='style-css'  href='http://localhost:4000/style.css' type='text/css' media='all' />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/public/apple-touch-icon-precomposed.png">
+    <link rel="shortcut icon" href="http://localhost:4000/public/favicon.ico">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://localhost:4000/atom.xml">
     
     <script type="text/javascript">
         (function() {
@@ -31,101 +27,67 @@
         };
         var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
         })();
-
     </script>
+    
 </head>
 
-<body>
-<!-- Menu Section Starts -->
-    <!-- Left Menu Section -->
-    <div class="pushy pushy-right">
-        <a href="#" class="close-pushy" title="Close Menu">×</a>
-        <ul>
-            <li><a href="http://hypenotic.com/work/">Work</a></li>
-            <li><a href="articles/">Articles</a></li>
-            <li><a href="/contact/">Contact</a></li>
-            <li><a href="/about/">About</a></li>
-            <li><a href="/services/">Services</a></li>
-        </ul>    
-    </div>
-<!-- Menu Section Ends -->
-<!-- Site Overlay for Pushy offcanvas to work -->
-<div class="site-overlay"></div>
-
-<header>
-    <nav>
-        <div class="site-width">
-            <div class="container">
-                <div class="column-span-3 logo">
-                    <h1><a href="">Hypenotic</a></h1>
-                </div>
-                <div class="column-span-2 badge">
-                    <h1><a href="http://www.bcorporation.net/community/hypenotic" target="_blank">B Corporation</a></h1>
-                </div>
-                <div class="column-span-7" >
-                    <ul>
-                        <li><a href="/work/">Work</a></li>
-                        <li><a href="/articles/">Articles</a></li>
-                        <li><a href="/contact/">Contact</a></li>
-                        <li><a href="/about/">About</a></li>
-                        <li><a href="/services/">Services</a></li>
-                    </ul>                
-                </div>
-                <div class="menu-btn">Menu</div>
+<body class="wrap push">
+<section role="banner">
+    <header>
+        <div class="logo">
+            <a href="http://localhost:4000"><img src="http://localhost:4000/images/logo.png"></a>
+        </div>     
+        <a href="#menu" class="menu-link">menu &#9776;</a>        
+        <nav id="menu" role="navigation">
+            <ul>
+                <li><a href="http://localhost:4000/work/">Work</a></li>
+                <li><a href="http://localhost:4000/articles/">Articles</a></li>
+                <li><a href="http://localhost:4000/contact/">Contact</a></li>
+                <li><a href="http://localhost:4000/about/">About</a></li>
+                <li><a href="http://localhost:4000/services/">Services</a></li>
+            </ul>
+            <div class="social-share">
+                <span class='symbol'><a href="https://twitter.com/hypenotic">twitterbird</a></span></a>
+                <span class='symbol'><a href="https://www.facebook.com/hypenotic">facebook</a></span>
+                <span class='symbol'><a href="http://www.linkedin.com/company/hypenotic">linkedin</a></span>
+                <span class='symbol'><a href="https://github.com/hypenotic">githubalt</a></span>
+                <span class='symbol'><a href="https://plus.google.com/108348294269297908661/posts">googleplus</a></span>
             </div>
-        </div>
-    </nav>
-</header>
-
-<div class="posts">
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/the-purpose-of-life-summarized-in-2-minutes-18-seconds/">
-        The Purpose of Life, Summarized in 2 Minutes, 18 Seconds
-      </a>
-    </h1>
-
-    <span class="post-date">28 Nov 2012</span>
-
-    <p>This animation set to a talk by philosopher <a href="http://en.wikipedia.org/wiki/Alan_Watts">Alan Watts</a> will remind you of the purpose of your life. It&#8217;s a big idea put very simply by a compelling thinker set to some good animation.</p>
-
-<p>Is there any better line than &#8220;It was a musical thing. You were supposed to sing or dance while the music was being played.&#8221;</p>
-
-<p>Watch, enjoy and reflect!</p>
-
-  </div>
-  
-</div>
-
-<div class="pagination">
-  
-    <a class="pagination-item older" href="page94">Older</a>
-  
-  
-    
-      <a class="pagination-item newer" href="page92">Newer</a>
-    
-  
-</div>
-
+        </nav>
+    </header>
+</section>
+<section role="slider">
+	<header>
+		<hgroup>
+			<small>Ver 4.1 Beta (Always be testing)</small>
+			<h1>Marketing strategy, design & development for people doing good</h1>
+			<figure>
+				<img src="http://localhost:4000/images/bcorp.png"><br>
+			</figure>
+			<small><b>A founding Canadian <a href="http://www.bcorporation.net/community/hypenotic">B Corp</a></b>
+				<br>Toronto &#149; Montreal
+            	<br>Est. 1998
+			</small>
+		</hgroup>
+	</header>
+</section>
 <footer>
-	<div class="container">
-		<div class="column-isolate-3">
+	<div class="footer-inner">
+		<div class="content">
 			<h5>About us</h5>
 			<p>
 				Hypenotic is a marketing strategy, design & development firm that chooses to use its powers for good. We’re a certified founding member of B Corp in Canada, and if you don’t know what that is, it’s time you do.  Since ’98, we’ve helped a lot of interesting people do important things. We create relevant communications and useful experiences. <a href="/about">Find out more.</a>
 			</p>
 			<p>
-			<span class='symbol'><a href="https://twitter.com/hypenotic">circletwitterbird</a></span></a>
-			<span class='symbol'><a href="https://www.facebook.com/hypenotic">circlefacebook</a></span>
-			<span class='symbol'><a href="http://www.linkedin.com/company/hypenotic">circlelinkedin</a></span>
-			<span class='symbol'><a href="https://github.com/hypenotic">circlegithubalt</a></span>
-			<span class='symbol'><a href="https://plus.google.com/108348294269297908661/posts">circlegoogleplus</a></span>
-	
+				<span class='symbol'><a href="https://twitter.com/hypenotic">circletwitterbird</a></span></a>
+				<span class='symbol'><a href="https://www.facebook.com/hypenotic">circlefacebook</a></span>
+				<span class='symbol'><a href="http://www.linkedin.com/company/hypenotic">circlelinkedin</a></span>
+				<span class='symbol'><a href="https://github.com/hypenotic">circlegithubalt</a></span>
+				<span class='symbol'><a href="https://plus.google.com/108348294269297908661/posts">circlegoogleplus</a></span>
 			</p>
 		</div>
-		<div class="column-isolate-3">
+
+		<div class="content">
 			<h5>Newsletter</h5>
           	<p>Subscribe to our weekly newsletter!</p>
 			<form action="http://hypenotic.us1.list-manage.com/subscribe/post?u=24fdcfc8d7addaf3c603f28a9&amp;id=06041ce3ca" method="post">
@@ -138,31 +100,36 @@
             </fieldset>
           </form>
 		</div>
-		<div class="column-isolate-3">
+
+
+		<div class="content">
 			<h5>Articles</h5>
 			<ul>  
 				  
-				   <li><a href="/how-looking-to-rent-in-toronto-can-teach-a-few-lessons-in-marketing/">How looking to rent in Toronto can teach a few lessons in marketing</a></li>  
+				   <li><a href="http://localhost:4000/how-looking-to-rent-in-toronto-can-teach-a-few-lessons-in-marketing/">How looking to rent in Toronto can teach a few lessons in marketing</a></li>  
 				  
-				   <li><a href="/go-home-lake-ontario-lakes-project/">Go Home Lake: Ontario Lakes Project</a></li>  
+				   <li><a href="http://localhost:4000/go-home-lake-ontario-lakes-project/">Go Home Lake: Ontario Lakes Project</a></li>  
 				  
-				   <li><a href="/the-kitchen-party-approach-to-web-design-dev/">The Kitchen Party approach to Web Design &#038; Dev</a></li>  
+				   <li><a href="http://localhost:4000/the-kitchen-party-approach-to-web-design-dev/">The Kitchen Party approach to Web Design &#038; Dev</a></li>  
 				  
-				   <li><a href="/what-it-means-to-beta-test-2/">What it Means to Beta Test</a></li>  
+				   <li><a href="http://localhost:4000/what-it-means-to-beta-test-2/">What it Means to Beta Test</a></li>  
 				  
-				   <li><a href="/social-media-is-a-tactic-not-a-strategy/">Social media is a tactic, not a strategy</a></li>  
+				   <li><a href="http://localhost:4000/social-media-is-a-tactic-not-a-strategy/">Social media is a tactic, not a strategy</a></li>  
 				  
 			</ul>
 		</div>
+		
 	</div>
-	<div class="container">
-		<div class="column-span-1">
-			<p class="small"><b><a href="/contact">Let's talk</a></b> | &copy; 1998 - 2014 Hypenotic. All Rights Reserved.</p>
-		</div>
+	<div class="footer-inner">
+		<p class="small"><b><a href="/contact">Let's talk</a></b> | &copy; 1998 - 2014 Hypenotic. All Rights Reserved.</p>
 	</div>
 </footer>
 
-</div>
+<script>
+    jQuery(document).ready(function() {
+           jQuery('.menu-link').bigSlide();
+    });
+</script>
 
-  </body>
+</body>
 </html>

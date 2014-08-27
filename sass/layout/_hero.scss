@@ -1,0 +1,62 @@
+section[role=slider] {
+    background-color: $yellow;
+    height: 100vh;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    header {
+        @include outer-container;
+        @include clearfix;
+        hgroup {
+            padding-top: 23vh;
+            h1 {
+                padding: .2em .3em 0 .3em;
+                text-shadow: -5px 5px 0px #fff;
+            }
+            @include media($bp-large) {
+                padding-top: 23vh;
+                h1 {
+                    padding-top: .2em;
+                    text-shadow: -5px 5px 0px #fff;
+                }
+            }
+        }
+    }
+    figure {
+        width: 50px;
+        height: auto;
+        margin: auto;
+        padding: 2em 0 2em 0;
+    }
+}
+
+.banner {
+    position: relative;
+}
+
+.bannertext {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 48%;
+}
+
+.bannerimage {
+    max-height: 400px;
+    width: 100%;
+}
+
+.banner span {
+    //background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 100%;
+}
+
+.banner span .inner {
+    /* height/width of image */
+    display: block;
+    height: 0;
+    padding-top: 57%;
+}

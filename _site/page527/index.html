@@ -13,15 +13,11 @@
     <meta property="og:description" content="" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="">
-    <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
     
-    <link rel='stylesheet' id='style-css'  href='http://hypenotic.com/wordpress/wp-content/themes/hype/style.css' type='text/css' media='all' />
-    <!-- Icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="public/apple-touch-icon-precomposed.png">
-    <link rel="shortcut icon" href="public/favicon.ico">
-
-    <!-- RSS -->
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="atom.xml">
+    <link rel='stylesheet' id='style-css'  href='http://localhost:4000/style.css' type='text/css' media='all' />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/public/apple-touch-icon-precomposed.png">
+    <link rel="shortcut icon" href="http://localhost:4000/public/favicon.ico">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://localhost:4000/atom.xml">
     
     <script type="text/javascript">
         (function() {
@@ -31,115 +27,67 @@
         };
         var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
         })();
-
     </script>
+    
 </head>
 
-<body>
-<!-- Menu Section Starts -->
-    <!-- Left Menu Section -->
-    <div class="pushy pushy-right">
-        <a href="#" class="close-pushy" title="Close Menu">×</a>
-        <ul>
-            <li><a href="http://hypenotic.com/work/">Work</a></li>
-            <li><a href="articles/">Articles</a></li>
-            <li><a href="/contact/">Contact</a></li>
-            <li><a href="/about/">About</a></li>
-            <li><a href="/services/">Services</a></li>
-        </ul>    
-    </div>
-<!-- Menu Section Ends -->
-<!-- Site Overlay for Pushy offcanvas to work -->
-<div class="site-overlay"></div>
-
-<header>
-    <nav>
-        <div class="site-width">
-            <div class="container">
-                <div class="column-span-3 logo">
-                    <h1><a href="">Hypenotic</a></h1>
-                </div>
-                <div class="column-span-2 badge">
-                    <h1><a href="http://www.bcorporation.net/community/hypenotic" target="_blank">B Corporation</a></h1>
-                </div>
-                <div class="column-span-7" >
-                    <ul>
-                        <li><a href="/work/">Work</a></li>
-                        <li><a href="/articles/">Articles</a></li>
-                        <li><a href="/contact/">Contact</a></li>
-                        <li><a href="/about/">About</a></li>
-                        <li><a href="/services/">Services</a></li>
-                    </ul>                
-                </div>
-                <div class="menu-btn">Menu</div>
+<body class="wrap push">
+<section role="banner">
+    <header>
+        <div class="logo">
+            <a href="http://localhost:4000"><img src="http://localhost:4000/images/logo.png"></a>
+        </div>     
+        <a href="#menu" class="menu-link">menu &#9776;</a>        
+        <nav id="menu" role="navigation">
+            <ul>
+                <li><a href="http://localhost:4000/work/">Work</a></li>
+                <li><a href="http://localhost:4000/articles/">Articles</a></li>
+                <li><a href="http://localhost:4000/contact/">Contact</a></li>
+                <li><a href="http://localhost:4000/about/">About</a></li>
+                <li><a href="http://localhost:4000/services/">Services</a></li>
+            </ul>
+            <div class="social-share">
+                <span class='symbol'><a href="https://twitter.com/hypenotic">twitterbird</a></span></a>
+                <span class='symbol'><a href="https://www.facebook.com/hypenotic">facebook</a></span>
+                <span class='symbol'><a href="http://www.linkedin.com/company/hypenotic">linkedin</a></span>
+                <span class='symbol'><a href="https://github.com/hypenotic">githubalt</a></span>
+                <span class='symbol'><a href="https://plus.google.com/108348294269297908661/posts">googleplus</a></span>
             </div>
-        </div>
-    </nav>
-</header>
-
-<div class="posts">
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/vizday-case-studies-in-visualization/">
-        VizDay: Case Studies in Visualization
-      </a>
-    </h1>
-
-    <span class="post-date">13 Nov 2008</span>
-
-    <p style="text-align: center;">
-  <a href="http://www.ocad.ca/about_ocad/news_events/vizday08.htm"><img class="size-medium wp-image-434 aligncenter" title="visday-2008" src="http://hypenotic.com/wordpress/wp-content/uploads/2008/11/visday-2008.jpg" alt="" width="440" height="200" /></a>
-</p>
-
-<p>A glimpse into what&#8217;s up on the academic side of the visualization universe. An interesting (and free!) day-long symposium at OCAD that showed off various examples of high-end data visualization tools &amp; techniques.</p>
-
-<p>One unexpectedly cool nugget was tucked into a footnote to a presentation on the business and technical challenges of data visualization/opportunity modeling in the mining industry. It was <a href="http://vis.cs.ucdavis.edu/%7Eogawa/codeswarm/">CodeSwarm</a>, a way of looking at the evolution of a collaborative software development process by visualizing the contributions to a svn repository over time. I can only imagine what it might look like to run this on Wikipedia&#8230;</p>
-
-<p>Some of the other interesting stuff included the mind-boggling sophistication (real-time modelling of gigabytes of data <em>per second</em> anyone?) of open-source visualization toolkits like <a href="http://www.paraview.org/" target="_blank">ParaView</a> (some amazing animations at the bottom of <a href="http://www.paraview.org/paraview/project/imagegallery.html" target="_blank">this</a> page), and a sister project <a href="http://paraviewgeo.mirarco.org/index.php/Main_Page" target="_blank">ParaViewGeo</a> specifically for geophysics/mining. An eye-opener for anyone who thinks open-source is limited to web tools, and a compelling business case for open-source.</p>
-
-<p>Another interesting project was <a href="http://cluster.cis.drexel.edu/~cchen/citespace/" target="_blank">CiteSpace</a>, a tool for visually exploring the relationships between pulbished scientific papers. By tracking the complex relationships between citations, topic, authors &amp; institutions patterns of discovery and intellectual influence begin to emerge. Becoming fluent in the interpretations of these patterns could be a novel way to identify which discoveries are destinined to be very important &#8211; something that can be hard to see given the incredible degrees of specialization in scientific research &#8211; ideas can often get lost in the sea of knowledge, and may not float to the surface for years.</p>
-
-<p>CiteSpace illustrates another dilemma: despite the sophistication of the tool itself, the underlying programming and the richness of the data, the UI of the software is not friendly or intuitive at all. Furthermore, the visualization itself, while rich with data and parameter controls, does not convey it&#8217;s meaning directly, but rather requires interpretation through a coded language of colour &amp; symbols. And man, thier website is an academic eyesore. How can such sophisitcated thinking end up looking so bad?* What these guys need is a graphic designer.</p>
-
-<p>(* I think there is a kind of academic anti-aesthetic snobbery, wherein something that looks too good (a whiff of &#8216;slick&#8217;, the taint of commercialization) won&#8217;t be taken as seriously as something that was created by someone who appears to have more &#8216;important&#8217; things to worry about than the design of their papers/charts/website, etc.)</p>
-
-<p>In the roundtable discussion, it seemed that many scientists and engineers, when approaching the final layer of visual manifestation of thier ideas, got stuck on the question of how/why they should design the visualization a particluar way. There was talk of the mysteries of the rhetoric of the visual language used to convey meaning&#8230; Hey, wait a minute! Isn&#8217;t that exacly what graphic design is?</p>
-
-<p>The graphic design process is about making decision to enhance the commincations of ideas through a visual rhetoric of colour, layout, type, hierarchy, composition, etc. Designers are the scientists of qualitative visualization, <a href="http://www.amazon.com/exec/obidos/ASIN/0735711658/" target="_blank">making the invisible visible</a>, defining and articulating our shared visual language. In the same way that we dig into clients business challenges and audiences emotional world and then use our visual and conceptual toolkit to make the connections between them, I see an important role for designers as collaborators with the scientific community. There is a lot we can offer to help make scientific results more intelligible, tools more usable, implications more evident; design can help reduce conceptual signal-to-noise without over-simplifying (as seemed to be one concern). Knowlege, scientific or otherwise, is ultimated require to make decisions, often by people outside the specialized fields where that knowlege came from. Graphic designers have exactly the skills required to translate complex, tangled ideas into something that can communicate more immediately, more intuitively and more universally. We help turn knowledge into understanding.</p>
-
-  </div>
-  
-</div>
-
-<div class="pagination">
-  
-    <a class="pagination-item older" href="page528">Older</a>
-  
-  
-    
-      <a class="pagination-item newer" href="page526">Newer</a>
-    
-  
-</div>
-
+        </nav>
+    </header>
+</section>
+<section role="slider">
+	<header>
+		<hgroup>
+			<small>Ver 4.1 Beta (Always be testing)</small>
+			<h1>Marketing strategy, design & development for people doing good</h1>
+			<figure>
+				<img src="http://localhost:4000/images/bcorp.png"><br>
+			</figure>
+			<small><b>A founding Canadian <a href="http://www.bcorporation.net/community/hypenotic">B Corp</a></b>
+				<br>Toronto &#149; Montreal
+            	<br>Est. 1998
+			</small>
+		</hgroup>
+	</header>
+</section>
 <footer>
-	<div class="container">
-		<div class="column-isolate-3">
+	<div class="footer-inner">
+		<div class="content">
 			<h5>About us</h5>
 			<p>
 				Hypenotic is a marketing strategy, design & development firm that chooses to use its powers for good. We’re a certified founding member of B Corp in Canada, and if you don’t know what that is, it’s time you do.  Since ’98, we’ve helped a lot of interesting people do important things. We create relevant communications and useful experiences. <a href="/about">Find out more.</a>
 			</p>
 			<p>
-			<span class='symbol'><a href="https://twitter.com/hypenotic">circletwitterbird</a></span></a>
-			<span class='symbol'><a href="https://www.facebook.com/hypenotic">circlefacebook</a></span>
-			<span class='symbol'><a href="http://www.linkedin.com/company/hypenotic">circlelinkedin</a></span>
-			<span class='symbol'><a href="https://github.com/hypenotic">circlegithubalt</a></span>
-			<span class='symbol'><a href="https://plus.google.com/108348294269297908661/posts">circlegoogleplus</a></span>
-	
+				<span class='symbol'><a href="https://twitter.com/hypenotic">circletwitterbird</a></span></a>
+				<span class='symbol'><a href="https://www.facebook.com/hypenotic">circlefacebook</a></span>
+				<span class='symbol'><a href="http://www.linkedin.com/company/hypenotic">circlelinkedin</a></span>
+				<span class='symbol'><a href="https://github.com/hypenotic">circlegithubalt</a></span>
+				<span class='symbol'><a href="https://plus.google.com/108348294269297908661/posts">circlegoogleplus</a></span>
 			</p>
 		</div>
-		<div class="column-isolate-3">
+
+		<div class="content">
 			<h5>Newsletter</h5>
           	<p>Subscribe to our weekly newsletter!</p>
 			<form action="http://hypenotic.us1.list-manage.com/subscribe/post?u=24fdcfc8d7addaf3c603f28a9&amp;id=06041ce3ca" method="post">
@@ -152,31 +100,36 @@
             </fieldset>
           </form>
 		</div>
-		<div class="column-isolate-3">
+
+
+		<div class="content">
 			<h5>Articles</h5>
 			<ul>  
 				  
-				   <li><a href="/how-looking-to-rent-in-toronto-can-teach-a-few-lessons-in-marketing/">How looking to rent in Toronto can teach a few lessons in marketing</a></li>  
+				   <li><a href="http://localhost:4000/how-looking-to-rent-in-toronto-can-teach-a-few-lessons-in-marketing/">How looking to rent in Toronto can teach a few lessons in marketing</a></li>  
 				  
-				   <li><a href="/go-home-lake-ontario-lakes-project/">Go Home Lake: Ontario Lakes Project</a></li>  
+				   <li><a href="http://localhost:4000/go-home-lake-ontario-lakes-project/">Go Home Lake: Ontario Lakes Project</a></li>  
 				  
-				   <li><a href="/the-kitchen-party-approach-to-web-design-dev/">The Kitchen Party approach to Web Design &#038; Dev</a></li>  
+				   <li><a href="http://localhost:4000/the-kitchen-party-approach-to-web-design-dev/">The Kitchen Party approach to Web Design &#038; Dev</a></li>  
 				  
-				   <li><a href="/what-it-means-to-beta-test-2/">What it Means to Beta Test</a></li>  
+				   <li><a href="http://localhost:4000/what-it-means-to-beta-test-2/">What it Means to Beta Test</a></li>  
 				  
-				   <li><a href="/social-media-is-a-tactic-not-a-strategy/">Social media is a tactic, not a strategy</a></li>  
+				   <li><a href="http://localhost:4000/social-media-is-a-tactic-not-a-strategy/">Social media is a tactic, not a strategy</a></li>  
 				  
 			</ul>
 		</div>
+		
 	</div>
-	<div class="container">
-		<div class="column-span-1">
-			<p class="small"><b><a href="/contact">Let's talk</a></b> | &copy; 1998 - 2014 Hypenotic. All Rights Reserved.</p>
-		</div>
+	<div class="footer-inner">
+		<p class="small"><b><a href="/contact">Let's talk</a></b> | &copy; 1998 - 2014 Hypenotic. All Rights Reserved.</p>
 	</div>
 </footer>
 
-</div>
+<script>
+    jQuery(document).ready(function() {
+           jQuery('.menu-link').bigSlide();
+    });
+</script>
 
-  </body>
+</body>
 </html>

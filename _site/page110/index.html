@@ -13,15 +13,11 @@
     <meta property="og:description" content="" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="">
-    <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
     
-    <link rel='stylesheet' id='style-css'  href='http://hypenotic.com/wordpress/wp-content/themes/hype/style.css' type='text/css' media='all' />
-    <!-- Icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="public/apple-touch-icon-precomposed.png">
-    <link rel="shortcut icon" href="public/favicon.ico">
-
-    <!-- RSS -->
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="atom.xml">
+    <link rel='stylesheet' id='style-css'  href='http://localhost:4000/style.css' type='text/css' media='all' />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/public/apple-touch-icon-precomposed.png">
+    <link rel="shortcut icon" href="http://localhost:4000/public/favicon.ico">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://localhost:4000/atom.xml">
     
     <script type="text/javascript">
         (function() {
@@ -31,109 +27,67 @@
         };
         var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
         })();
-
     </script>
+    
 </head>
 
-<body>
-<!-- Menu Section Starts -->
-    <!-- Left Menu Section -->
-    <div class="pushy pushy-right">
-        <a href="#" class="close-pushy" title="Close Menu">×</a>
-        <ul>
-            <li><a href="http://hypenotic.com/work/">Work</a></li>
-            <li><a href="articles/">Articles</a></li>
-            <li><a href="/contact/">Contact</a></li>
-            <li><a href="/about/">About</a></li>
-            <li><a href="/services/">Services</a></li>
-        </ul>    
-    </div>
-<!-- Menu Section Ends -->
-<!-- Site Overlay for Pushy offcanvas to work -->
-<div class="site-overlay"></div>
-
-<header>
-    <nav>
-        <div class="site-width">
-            <div class="container">
-                <div class="column-span-3 logo">
-                    <h1><a href="">Hypenotic</a></h1>
-                </div>
-                <div class="column-span-2 badge">
-                    <h1><a href="http://www.bcorporation.net/community/hypenotic" target="_blank">B Corporation</a></h1>
-                </div>
-                <div class="column-span-7" >
-                    <ul>
-                        <li><a href="/work/">Work</a></li>
-                        <li><a href="/articles/">Articles</a></li>
-                        <li><a href="/contact/">Contact</a></li>
-                        <li><a href="/about/">About</a></li>
-                        <li><a href="/services/">Services</a></li>
-                    </ul>                
-                </div>
-                <div class="menu-btn">Menu</div>
+<body class="wrap push">
+<section role="banner">
+    <header>
+        <div class="logo">
+            <a href="http://localhost:4000"><img src="http://localhost:4000/images/logo.png"></a>
+        </div>     
+        <a href="#menu" class="menu-link">menu &#9776;</a>        
+        <nav id="menu" role="navigation">
+            <ul>
+                <li><a href="http://localhost:4000/work/">Work</a></li>
+                <li><a href="http://localhost:4000/articles/">Articles</a></li>
+                <li><a href="http://localhost:4000/contact/">Contact</a></li>
+                <li><a href="http://localhost:4000/about/">About</a></li>
+                <li><a href="http://localhost:4000/services/">Services</a></li>
+            </ul>
+            <div class="social-share">
+                <span class='symbol'><a href="https://twitter.com/hypenotic">twitterbird</a></span></a>
+                <span class='symbol'><a href="https://www.facebook.com/hypenotic">facebook</a></span>
+                <span class='symbol'><a href="http://www.linkedin.com/company/hypenotic">linkedin</a></span>
+                <span class='symbol'><a href="https://github.com/hypenotic">githubalt</a></span>
+                <span class='symbol'><a href="https://plus.google.com/108348294269297908661/posts">googleplus</a></span>
             </div>
-        </div>
-    </nav>
-</header>
-
-<div class="posts">
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/4-reasons-san-francisco-does-city-building-right/">
-        5 Ways San Francisco Gets It Right
-      </a>
-    </h1>
-
-    <span class="post-date">12 Oct 2012</span>
-
-    <p><a href="http://hypenotic.com/fun-stuff/9974/4-reasons-san-francisco-does-city-building-right/attachment/screen-shot-2012-10-12-at-10-37-34-pm" rel="attachment wp-att-9977"><img class="aligncenter size-full wp-image-9977" title="Screen shot 2012-10-12 at 10.37.34 PM" src="http://hypenotic.com/wordpress/wp-content/uploads/2012/10/Screen-shot-2012-10-12-at-10.37.34-PM.png" alt="" width="394" height="388" /></a></p>
-
-<p>Barry and I spent last week in San Francisco. We left with a deep sense that this is a city that has its priorities straight.  This is a city that values community, people and culture, and preserves it at all costs. Here are 5 experiences we had that really demonstrated that San Francisco is a model city that wears its values on its sleeve:</p>
-
-<ol>
-<li> <strong>The Wiggle</strong>: <a href="http://en.wikipedia.org/wiki/The_Wiggle">The Wiggle</a> is a mile-long bike route that guides cyclists through the city in a way that allows them to avoid extreme hills. European settlers used it as a footpath, in the late 1700s it became a horseback trail. Today it&#8217;s a testament to San Francisco&#8217;s bike culture. It&#8217;s also an iconic symbol of what can happen when community groups work together to incorporate cycling into urban planning. Check out <a href="http://www.sfbike.org/?wiggle">recent planning</a> efforts to enhance The Wiggle by increasing cyclists&#8217; visibility, improving local retail presence along the route and having seating available for between streets espressos.</li>
-<li> <strong>Hardly Strictly Bluegrass (HSB): </strong>We were lucky enough to be in town for this <a href="http://en.wikipedia.org/wiki/Hardly_Strictly_Bluegrass">annual free and non-commercial bluegrass festival</a> that occupies Golden Gate Park for an entire weekend. 800,000 people visit five stages of kick ass music and all they have to do is wander into the park&#8211;no tickets, to turnstiles, no one looking in their bag. The whole musical extravaganza is funded by an endowment left by venture capitalist <a href="http://en.wikipedia.org/wiki/Warren_Hellman">Warren Hellman</a> who underwrote the entire festival from its inception to ensure that it remain entirely &#8220;non-commercial.&#8221; In other words, no sponsors, no beer tents, no big ugly signage. For me the most amazing thing about HSB was how it transformed my thoughts on communities of interest. Old people, middle class people, parents with toddlers and crazy, smelly, shirtless university kids all gathered together around good music and partying. Wow.</li>
-<li> <strong>MAPP: </strong>MAPP stands for <a href="http://www.sfmapp.com/">Mission Arts Performance Project</a> and we literally stumbled upon it walking in the Mission District one night. We turned a corner, heard music and were lured into The Mission&#8217;s <a href="http://www.yelp.com/biz/the-secret-garden-san-francisco">Secret Garden</a>, a hidden urban farm down a narrow alley way. The show was ending but we quickly realized that the guests were all headed in the same direction. We followed along (naturally) and ended up in a poet&#8217;s loft where we heard awesome latin inspired musicians and listened to poetry.  MAPP is (in their words) &#8220;a collage of 10-20 odd spaces transformed into micro art centres&#8221; throughout the Mission District.  It is an incredible example of what happens when people, art and community are mixed together. And what happens when  you let <a href="http://hypenotic.com/about-us">Barry Martin</a> lead you down a street you&#8217;ve never been down before.</li>
-<li> <strong>Protected Local Neighbourhoods</strong>: In <a href="http://www.ilsr.org/san-francisco-dealing-chains/">2006 San Francisco passed a law stating</a> that no chain store or restaurant could open in a neighbourhood without first going through a pubic hearing and special approval from the planning commission. That means you&#8217;ll see more local grocery stores, book stores and restaurants than you&#8217;re likely to see anywhere in  North America. That said all of that is under threat because the city&#8217;s downtown doesn&#8217;t count as a neighbourhood. While we were in SF the first Target store opened Downtown and there are more to follow. This is not a good sign. But for now, it&#8217;s a sight to behold.</li>
-<li> <strong>Bi-Rite Market: </strong>Not only is <a href="http://www.biritemarket.com/">Bi Rite</a> the most divine grocery store I&#8217;ve ever been in, it is a part of a<a href="http://www.biritemarket.com/who-we-are/the-bi-rite-family-of-businesses/"> family of businesses</a> that together express a clear and delicious values-proposition. In addition to the grocery store, there&#8217;s a creamery, a catering company, fruit and vegetable farms, and the piece de resisance, a non-profit community education centre called <a href="http://www.18reasons.org/">18 Reasons</a> which is (in their words) &#8220;a space to further connect neighbors with producers of food and wine.&#8221; There are community dinners, wine tastings and cheese tastings. It&#8217;s what helped inspire Toronto&#8217;s own <a href="http://www.thedepanneur.ca/">The Depanneur</a> (owned by Hypenotic alum Len Senater). If you were in San Francisco today, you&#8217;d have the opportunity to go to 18 Reasons and learn how GMO&#8217;s affect health, crop diversity, and the environment and tomorrow you could make apple strudel (GMO free of course). Here&#8217;s to a business growing right, not just growing big.</li>
-</ol>
-
-<p>Have you been to SF? What did we miss? I need to know for my next visit.</p>
-
-  </div>
-  
-</div>
-
-<div class="pagination">
-  
-    <a class="pagination-item older" href="page111">Older</a>
-  
-  
-    
-      <a class="pagination-item newer" href="page109">Newer</a>
-    
-  
-</div>
-
+        </nav>
+    </header>
+</section>
+<section role="slider">
+	<header>
+		<hgroup>
+			<small>Ver 4.1 Beta (Always be testing)</small>
+			<h1>Marketing strategy, design & development for people doing good</h1>
+			<figure>
+				<img src="http://localhost:4000/images/bcorp.png"><br>
+			</figure>
+			<small><b>A founding Canadian <a href="http://www.bcorporation.net/community/hypenotic">B Corp</a></b>
+				<br>Toronto &#149; Montreal
+            	<br>Est. 1998
+			</small>
+		</hgroup>
+	</header>
+</section>
 <footer>
-	<div class="container">
-		<div class="column-isolate-3">
+	<div class="footer-inner">
+		<div class="content">
 			<h5>About us</h5>
 			<p>
 				Hypenotic is a marketing strategy, design & development firm that chooses to use its powers for good. We’re a certified founding member of B Corp in Canada, and if you don’t know what that is, it’s time you do.  Since ’98, we’ve helped a lot of interesting people do important things. We create relevant communications and useful experiences. <a href="/about">Find out more.</a>
 			</p>
 			<p>
-			<span class='symbol'><a href="https://twitter.com/hypenotic">circletwitterbird</a></span></a>
-			<span class='symbol'><a href="https://www.facebook.com/hypenotic">circlefacebook</a></span>
-			<span class='symbol'><a href="http://www.linkedin.com/company/hypenotic">circlelinkedin</a></span>
-			<span class='symbol'><a href="https://github.com/hypenotic">circlegithubalt</a></span>
-			<span class='symbol'><a href="https://plus.google.com/108348294269297908661/posts">circlegoogleplus</a></span>
-	
+				<span class='symbol'><a href="https://twitter.com/hypenotic">circletwitterbird</a></span></a>
+				<span class='symbol'><a href="https://www.facebook.com/hypenotic">circlefacebook</a></span>
+				<span class='symbol'><a href="http://www.linkedin.com/company/hypenotic">circlelinkedin</a></span>
+				<span class='symbol'><a href="https://github.com/hypenotic">circlegithubalt</a></span>
+				<span class='symbol'><a href="https://plus.google.com/108348294269297908661/posts">circlegoogleplus</a></span>
 			</p>
 		</div>
-		<div class="column-isolate-3">
+
+		<div class="content">
 			<h5>Newsletter</h5>
           	<p>Subscribe to our weekly newsletter!</p>
 			<form action="http://hypenotic.us1.list-manage.com/subscribe/post?u=24fdcfc8d7addaf3c603f28a9&amp;id=06041ce3ca" method="post">
@@ -146,31 +100,36 @@
             </fieldset>
           </form>
 		</div>
-		<div class="column-isolate-3">
+
+
+		<div class="content">
 			<h5>Articles</h5>
 			<ul>  
 				  
-				   <li><a href="/how-looking-to-rent-in-toronto-can-teach-a-few-lessons-in-marketing/">How looking to rent in Toronto can teach a few lessons in marketing</a></li>  
+				   <li><a href="http://localhost:4000/how-looking-to-rent-in-toronto-can-teach-a-few-lessons-in-marketing/">How looking to rent in Toronto can teach a few lessons in marketing</a></li>  
 				  
-				   <li><a href="/go-home-lake-ontario-lakes-project/">Go Home Lake: Ontario Lakes Project</a></li>  
+				   <li><a href="http://localhost:4000/go-home-lake-ontario-lakes-project/">Go Home Lake: Ontario Lakes Project</a></li>  
 				  
-				   <li><a href="/the-kitchen-party-approach-to-web-design-dev/">The Kitchen Party approach to Web Design &#038; Dev</a></li>  
+				   <li><a href="http://localhost:4000/the-kitchen-party-approach-to-web-design-dev/">The Kitchen Party approach to Web Design &#038; Dev</a></li>  
 				  
-				   <li><a href="/what-it-means-to-beta-test-2/">What it Means to Beta Test</a></li>  
+				   <li><a href="http://localhost:4000/what-it-means-to-beta-test-2/">What it Means to Beta Test</a></li>  
 				  
-				   <li><a href="/social-media-is-a-tactic-not-a-strategy/">Social media is a tactic, not a strategy</a></li>  
+				   <li><a href="http://localhost:4000/social-media-is-a-tactic-not-a-strategy/">Social media is a tactic, not a strategy</a></li>  
 				  
 			</ul>
 		</div>
+		
 	</div>
-	<div class="container">
-		<div class="column-span-1">
-			<p class="small"><b><a href="/contact">Let's talk</a></b> | &copy; 1998 - 2014 Hypenotic. All Rights Reserved.</p>
-		</div>
+	<div class="footer-inner">
+		<p class="small"><b><a href="/contact">Let's talk</a></b> | &copy; 1998 - 2014 Hypenotic. All Rights Reserved.</p>
 	</div>
 </footer>
 
-</div>
+<script>
+    jQuery(document).ready(function() {
+           jQuery('.menu-link').bigSlide();
+    });
+</script>
 
-  </body>
+</body>
 </html>

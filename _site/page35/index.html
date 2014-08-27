@@ -13,15 +13,11 @@
     <meta property="og:description" content="" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="">
-    <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
     
-    <link rel='stylesheet' id='style-css'  href='http://hypenotic.com/wordpress/wp-content/themes/hype/style.css' type='text/css' media='all' />
-    <!-- Icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="public/apple-touch-icon-precomposed.png">
-    <link rel="shortcut icon" href="public/favicon.ico">
-
-    <!-- RSS -->
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="atom.xml">
+    <link rel='stylesheet' id='style-css'  href='http://localhost:4000/style.css' type='text/css' media='all' />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/public/apple-touch-icon-precomposed.png">
+    <link rel="shortcut icon" href="http://localhost:4000/public/favicon.ico">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://localhost:4000/atom.xml">
     
     <script type="text/javascript">
         (function() {
@@ -31,175 +27,67 @@
         };
         var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
         })();
-
     </script>
+    
 </head>
 
-<body>
-<!-- Menu Section Starts -->
-    <!-- Left Menu Section -->
-    <div class="pushy pushy-right">
-        <a href="#" class="close-pushy" title="Close Menu">×</a>
-        <ul>
-            <li><a href="http://hypenotic.com/work/">Work</a></li>
-            <li><a href="articles/">Articles</a></li>
-            <li><a href="/contact/">Contact</a></li>
-            <li><a href="/about/">About</a></li>
-            <li><a href="/services/">Services</a></li>
-        </ul>    
-    </div>
-<!-- Menu Section Ends -->
-<!-- Site Overlay for Pushy offcanvas to work -->
-<div class="site-overlay"></div>
-
-<header>
-    <nav>
-        <div class="site-width">
-            <div class="container">
-                <div class="column-span-3 logo">
-                    <h1><a href="">Hypenotic</a></h1>
-                </div>
-                <div class="column-span-2 badge">
-                    <h1><a href="http://www.bcorporation.net/community/hypenotic" target="_blank">B Corporation</a></h1>
-                </div>
-                <div class="column-span-7" >
-                    <ul>
-                        <li><a href="/work/">Work</a></li>
-                        <li><a href="/articles/">Articles</a></li>
-                        <li><a href="/contact/">Contact</a></li>
-                        <li><a href="/about/">About</a></li>
-                        <li><a href="/services/">Services</a></li>
-                    </ul>                
-                </div>
-                <div class="menu-btn">Menu</div>
+<body class="wrap push">
+<section role="banner">
+    <header>
+        <div class="logo">
+            <a href="http://localhost:4000"><img src="http://localhost:4000/images/logo.png"></a>
+        </div>     
+        <a href="#menu" class="menu-link">menu &#9776;</a>        
+        <nav id="menu" role="navigation">
+            <ul>
+                <li><a href="http://localhost:4000/work/">Work</a></li>
+                <li><a href="http://localhost:4000/articles/">Articles</a></li>
+                <li><a href="http://localhost:4000/contact/">Contact</a></li>
+                <li><a href="http://localhost:4000/about/">About</a></li>
+                <li><a href="http://localhost:4000/services/">Services</a></li>
+            </ul>
+            <div class="social-share">
+                <span class='symbol'><a href="https://twitter.com/hypenotic">twitterbird</a></span></a>
+                <span class='symbol'><a href="https://www.facebook.com/hypenotic">facebook</a></span>
+                <span class='symbol'><a href="http://www.linkedin.com/company/hypenotic">linkedin</a></span>
+                <span class='symbol'><a href="https://github.com/hypenotic">githubalt</a></span>
+                <span class='symbol'><a href="https://plus.google.com/108348294269297908661/posts">googleplus</a></span>
             </div>
-        </div>
-    </nav>
-</header>
-
-<div class="posts">
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/your-carousel-might-not-be-as-brilliant-as-you-think/">
-        Your Carousel might not be as brilliant as you think.
-      </a>
-    </h1>
-
-    <span class="post-date">22 May 2013</span>
-
-    <p style="text-align: center;">
-  <img class="aligncenter  wp-image-11020" alt="Carousel" src="http://hypenotic.com/wordpress/wp-content/uploads/2013/05/Carousel1-580x625.png" width="348" height="375" />
-</p>
-
-<p style="text-align: left;">
-  A well-designed carousel (or slider) is a neat way of showcasing some important bits of information that <del>hopefully</del> clearly direct you to where you need to go to &#8220;learn more&#8221;. I recently read <a href="http://econsultancy.com/ca/blog/62715-three-ideas-that-convert-better-than-a-standard-carousel?utm_campaign=blogtweets&utm_content=buffer52bba&utm_medium=socialnetwork&utm_source=twitter">an article</a> by <a href="http://econsultancy.com/ca/blog/authors/blair-keen">Blair Keen</a> that discusses whether or not carousels are indeed helping the overal user experience of any given website.
-</p>
-
-<p style="text-align: left;">
-  I do still feel that the integration of a user-friendly, clearly defined carousel has a purpose in some cases, however Keen outlines some very good points for overal usability that we can all learn a thing or two from.
-</p>
-
-<p style="text-align: left;">
-  UX Master <a href="http://www.nngroup.com/people/jakob-nielsen/">Jakob Nielsen</a>, and conversion pro <a href="http://conversionxl.com/about/">Peep Laja</a> are among those who believe that the use of an unadulterated carousel says &#8220;We couldn&#8217;t figure out or agree on exactly what you need, so we decided to show you a few options instead&#8221;.
-</p>
-
-<p style="text-align: left;">
-  In Keen&#8217;s experience there are three main reasons why carousels find their way into production:
-</p>
-
-<ol>
-<li> <span style="line-height: 13px;">Unsure of the purpose of the page</span></li>
-<li> Having the belief that it doesn&#8217;t matter where the content is displayed so long as it&#8217;s somewhere</li>
-<li> Carousels are an out-dated trend that has been left unchallenged for too long.</li>
-</ol>
-
-<p>&nbsp;</p>
-
-<p><img class="aligncenter size-medium wp-image-10986" alt="Carousel_comic" src="http://hypenotic.com/wordpress/wp-content/uploads/2013/05/Carousel_comic-580x148.png" width="580" height="148" /></p>
-
-<p>&nbsp;</p>
-
-<p>If you take a look at your analytics, you may be surprised to see that the majority of users will click on the first slide and will ignore the rest of the information in your carousel, just because it was presented to them first.</p>
-
-<p>This decision-making &#8220;strategy&#8221; attempts to meet an acceptability threshold that is referred to as &#8220;<a href="http://en.wikipedia.org/wiki/Satisficing">Satisficing</a>&#8220;. Essentially, this is mashup of the words <em>satisfy,</em> and <em>suffice</em> or <em>sacrifice</em>. It describes the tendency to select the first option that appears that addresses most needs rather than choose to search for the optimal solution.</p>
-
-<h3 style="text-align: center;">
-</h3>
-
-<h3 style="text-align: center;">
-</h3>
-
-<h3 style="text-align: center;">
-  &#8220;What do we do, if not<br /> use a carousel?&#8221; you ask?
-</h3>
-
-<p>&nbsp;</p>
-
-<p>Straight off the bat,  you need a clear definition of what the <strong>primary goal</strong> of the page is. Only then can you make the necessary logical decisions on where information should be displayed and how. What are your users trying to achieve? What path do you want them to take, or rather what path will help them arrive at the answers to their questions?</p>
-
-<p style="text-align: left;">
-  Upon arriving at your homepage, there will obviously be a lot you want your users to see and do, however a clear specific hierarchy system will help narrow down and prioritize those actions.
-</p>
-
-<h4> <img class="aligncenter" alt="Carousel_comic_2b" src="http://hypenotic.com/wordpress/wp-content/uploads/2013/05/Carousel_comic_2b-580x173.png" width="464" height="138" /></h4>
-
-<h4><span style="font-size: 1em;">Idea 1: Remove It!</span></h4>
-
-<p style="text-align: left;">
-  <span style="text-align: left;">Keen makes a good point stating that &#8220;before optimizing something you should first establish a benchmark of current performance. What contribution does the page or piece of content make to your conversion rate at the moment?&#8221;. He dares you to try removing the carousel altogether. In Keen&#8217;s case, removing a carousel for one of his clients </span><strong style="text-align: left;">increased sales by 23%</strong><span style="text-align: left;">. In another, it made no change.</span>
-</p>
-
-<p style="text-align: left;">
-  Another bonus to removing the carousel is that it frees up a significant amount of screen real estate. Removing the carousel allows the rest of the content to move up, giving the users more clarity and specific call to actions at a much faster rate.
-</p>
-
-<h4>Idea 2: Try a Targeted Static Banner!</h4>
-
-<p style="text-align: left;">
-  Try opting for more specific, targeted content over general. Keen talks about an example of a homepage where <a href="http://www.adobe.com/ca/solutions/testing-targeting.html">Adobe Target</a> checks the user&#8217;s cookies to see if they have been on the site before. It then shows a different message and call-to-action if they have, versus if they haven&#8217;t.
-</p>
-
-<h4>Idea 3: Use Specific Imagery (this includes big text)!</h4>
-
-<p>Visuals help establish hierarchy and clarity to users who don&#8217;t want to spend too much time browsing for what they are looking for.</p>
-
-<p>As I stated before, I do still feel that there is a time and place for the use of a well-designed, user-friendly carousel** as long as the call-to-actions are clearly defined and visible**. If you feel that yours is taking up far too much screen real-estate, try looking at your analytics to see where people are going. Really think hard about what the users who come to your site to actually want to achieve and keep on testing to find the optimal solution for them to have their best user experience.</p>
-
-<p>&nbsp;</p>
-
-  </div>
-  
-</div>
-
-<div class="pagination">
-  
-    <a class="pagination-item older" href="page36">Older</a>
-  
-  
-    
-      <a class="pagination-item newer" href="page34">Newer</a>
-    
-  
-</div>
-
+        </nav>
+    </header>
+</section>
+<section role="slider">
+	<header>
+		<hgroup>
+			<small>Ver 4.1 Beta (Always be testing)</small>
+			<h1>Marketing strategy, design & development for people doing good</h1>
+			<figure>
+				<img src="http://localhost:4000/images/bcorp.png"><br>
+			</figure>
+			<small><b>A founding Canadian <a href="http://www.bcorporation.net/community/hypenotic">B Corp</a></b>
+				<br>Toronto &#149; Montreal
+            	<br>Est. 1998
+			</small>
+		</hgroup>
+	</header>
+</section>
 <footer>
-	<div class="container">
-		<div class="column-isolate-3">
+	<div class="footer-inner">
+		<div class="content">
 			<h5>About us</h5>
 			<p>
 				Hypenotic is a marketing strategy, design & development firm that chooses to use its powers for good. We’re a certified founding member of B Corp in Canada, and if you don’t know what that is, it’s time you do.  Since ’98, we’ve helped a lot of interesting people do important things. We create relevant communications and useful experiences. <a href="/about">Find out more.</a>
 			</p>
 			<p>
-			<span class='symbol'><a href="https://twitter.com/hypenotic">circletwitterbird</a></span></a>
-			<span class='symbol'><a href="https://www.facebook.com/hypenotic">circlefacebook</a></span>
-			<span class='symbol'><a href="http://www.linkedin.com/company/hypenotic">circlelinkedin</a></span>
-			<span class='symbol'><a href="https://github.com/hypenotic">circlegithubalt</a></span>
-			<span class='symbol'><a href="https://plus.google.com/108348294269297908661/posts">circlegoogleplus</a></span>
-	
+				<span class='symbol'><a href="https://twitter.com/hypenotic">circletwitterbird</a></span></a>
+				<span class='symbol'><a href="https://www.facebook.com/hypenotic">circlefacebook</a></span>
+				<span class='symbol'><a href="http://www.linkedin.com/company/hypenotic">circlelinkedin</a></span>
+				<span class='symbol'><a href="https://github.com/hypenotic">circlegithubalt</a></span>
+				<span class='symbol'><a href="https://plus.google.com/108348294269297908661/posts">circlegoogleplus</a></span>
 			</p>
 		</div>
-		<div class="column-isolate-3">
+
+		<div class="content">
 			<h5>Newsletter</h5>
           	<p>Subscribe to our weekly newsletter!</p>
 			<form action="http://hypenotic.us1.list-manage.com/subscribe/post?u=24fdcfc8d7addaf3c603f28a9&amp;id=06041ce3ca" method="post">
@@ -212,31 +100,36 @@
             </fieldset>
           </form>
 		</div>
-		<div class="column-isolate-3">
+
+
+		<div class="content">
 			<h5>Articles</h5>
 			<ul>  
 				  
-				   <li><a href="/how-looking-to-rent-in-toronto-can-teach-a-few-lessons-in-marketing/">How looking to rent in Toronto can teach a few lessons in marketing</a></li>  
+				   <li><a href="http://localhost:4000/how-looking-to-rent-in-toronto-can-teach-a-few-lessons-in-marketing/">How looking to rent in Toronto can teach a few lessons in marketing</a></li>  
 				  
-				   <li><a href="/go-home-lake-ontario-lakes-project/">Go Home Lake: Ontario Lakes Project</a></li>  
+				   <li><a href="http://localhost:4000/go-home-lake-ontario-lakes-project/">Go Home Lake: Ontario Lakes Project</a></li>  
 				  
-				   <li><a href="/the-kitchen-party-approach-to-web-design-dev/">The Kitchen Party approach to Web Design &#038; Dev</a></li>  
+				   <li><a href="http://localhost:4000/the-kitchen-party-approach-to-web-design-dev/">The Kitchen Party approach to Web Design &#038; Dev</a></li>  
 				  
-				   <li><a href="/what-it-means-to-beta-test-2/">What it Means to Beta Test</a></li>  
+				   <li><a href="http://localhost:4000/what-it-means-to-beta-test-2/">What it Means to Beta Test</a></li>  
 				  
-				   <li><a href="/social-media-is-a-tactic-not-a-strategy/">Social media is a tactic, not a strategy</a></li>  
+				   <li><a href="http://localhost:4000/social-media-is-a-tactic-not-a-strategy/">Social media is a tactic, not a strategy</a></li>  
 				  
 			</ul>
 		</div>
+		
 	</div>
-	<div class="container">
-		<div class="column-span-1">
-			<p class="small"><b><a href="/contact">Let's talk</a></b> | &copy; 1998 - 2014 Hypenotic. All Rights Reserved.</p>
-		</div>
+	<div class="footer-inner">
+		<p class="small"><b><a href="/contact">Let's talk</a></b> | &copy; 1998 - 2014 Hypenotic. All Rights Reserved.</p>
 	</div>
 </footer>
 
-</div>
+<script>
+    jQuery(document).ready(function() {
+           jQuery('.menu-link').bigSlide();
+    });
+</script>
 
-  </body>
+</body>
 </html>

@@ -1,0 +1,147 @@
+fieldset {
+    border: 0;
+    padding: 0;
+    ol {
+        @include no-bullets;
+        li {
+            display: block;
+            margin-bottom: 1em;
+            margin: 0 0 0 -40px;
+        }
+    }
+}
+
+footer {
+    input[type="text"], input[type="email"] {
+        @include border-radius(5px);
+        border: 1px solid rgb(202, 203, 193);
+        padding: 0.50em;
+        width: 100%;
+        background: {
+            //image: image_url("newsletter-icons.png");
+            position: 95% -55px;
+            color: white;
+            repeat: no-repeat;
+        };
+        &:focus {
+            border: 1px solid rgb(54, 116, 187);
+            color: rgb(54, 116, 187);
+            outline: none;
+        }
+    }
+    input[type="submit"] {
+        @include sassy-button("flat", 5px, 18px, #4ba3cc);
+    }
+}
+
+
+
+.gform_wrapper {
+    margin-bottom: 4em;
+    .ginput_complex {
+        //@extend .ginput_full;
+        //@extend .ginput_right;
+        overflow: hidden;
+        .ginput_left {
+            display: block;
+            float: left;
+            min-height: 43px;
+            overflow: hidden;
+            width: 50%;
+        }
+        .ginput_right {
+            float: right;
+            width: 49%;
+        }
+        label {
+            display: block;
+            font-size: 11px;
+            letter-spacing: 0.5pt;
+            margin: 3px 0;
+        }
+    }
+    div.validation_error {
+        display: none;
+    }
+    .instruction {
+        display: block;
+        font-size: 11px;
+        letter-spacing: 0.5pt;
+        margin: 3px 0;
+    }
+    .gfield_required {
+        color: #790000;
+        margin-left: 4px;
+    }
+    .validation_message {
+        color: #790000;
+        font-size: 12px;
+    }
+    .gform_footer {
+        padding-top: 40px;
+    }
+    input[type=text] {
+        @include border-radius(5px);
+        border: 1px solid #dae2e4;
+        padding: 10px 20px;
+        width: 97%;
+    }
+    textarea {
+        @extend input[type=text];
+        width: 100%;
+    }
+    li {
+        padding: 15px 0;
+    }
+}
+
+.gform_heading {
+    padding-bottom: 80px;
+    text-align: center;
+    h3 {
+        @include adjust-font-size-to(26px);
+        padding-bottom: 50px;
+        text-transform: uppercase;
+        @include susy-breakpoint(55em, $desktop) {
+            @include adjust-font-size-to(60px);
+        }
+    }
+    .gform_description {
+        @include adjust-font-size-to(20px);
+        color: #5d706e;
+        @include susy-breakpoint(55em, $desktop) {
+            @include adjust-font-size-to(28px);
+        }
+    }
+}
+
+.gform_fields {
+    list-style: none;
+    padding-left: 0;
+}
+
+.gform_wrapper li.gfield_error input[type=text],
+.gform_wrapper li.gfield_error input[type=url],
+.gform_wrapper li.gfield_error input[type=email],
+.gform_wrapper li.gfield_error input[type=tel],
+.gform_wrapper li.gfield_error input[type=number],
+.gform_wrapper li.gfield_error input[type=password],
+.gform_wrapper li.gfield_error textarea {
+    border: 1px solid #790000;
+}
+
+.gform_wrapper .top_label input.medium,
+.gform_wrapper .top_label select.medium {
+    width: 100%;
+    @include susy-breakpoint(55em, $desktop) {
+        width: 99%;
+    }
+}
+
+.gform_button {
+    @include sassy-button("flat", 0px, 16px, #3c464f);
+    display: block;
+    padding: 10px 40px;
+    text-shadow: none;
+    text-transform: uppercase;
+}
