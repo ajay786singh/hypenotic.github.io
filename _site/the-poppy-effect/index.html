@@ -14,53 +14,47 @@
     <meta property="og:type" content="website" />
     <meta property="og:image" content="">
     
-    <link rel='stylesheet' id='style-css'  href='http://hypenotic.github.io/style.css' type='text/css' media='all' />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://hypenotic.github.io/public/apple-touch-icon-precomposed.png">
-    <link rel="shortcut icon" href="http://hypenotic.github.io/public/favicon.ico">
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://hypenotic.github.io/atom.xml">
-    
+    <link rel='stylesheet' id='style-css'  href='http://localhost:4000/style.css' type='text/css' media='all' />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/public/apple-touch-icon-precomposed.png">
+    <link rel="shortcut icon" href="http://localhost:4000/public/favicon.ico">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://localhost:4000/atom.xml">
+    <style>
+        .wf-loading {visibility: hidden;}
+    </style>
     <script type="text/javascript">
-        (function() {
-        var config = {
-        kitId: 'set7rcj',
-        scriptTimeout: 3000
-        };
-        var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
-        })();
+        (function(d) {
+            var config = {
+            kitId: 'set7rcj',
+            scriptTimeout: 3000
+            },
+            h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
     </script>
-    
 </head>
-
 <body class="wrap push">
 <section role="banner">
     <header>
         <div class="logo">
-            <a href="http://hypenotic.github.io"><img src="http://hypenotic.github.io/images/logo.png"></a>
+            <a href="http://localhost:4000"><img src="http://localhost:4000/images/logo.png"></a>
         </div>     
         <a href="#menu" class="menu-link">menu &#9776;</a>        
         <nav id="menu" role="navigation">
             <ul>
-                <li><a href="http://hypenotic.github.io/work/">Work</a></li>
-                <li><a href="http://hypenotic.github.io/articles/">Articles</a></li>
-                <li><a href="http://hypenotic.github.io/contact/">Contact</a></li>
-                <li><a href="http://hypenotic.github.io/about/">About</a></li>
-                <li><a href="http://hypenotic.github.io/services/">Services</a></li>
+                <li><a href="http://localhost:4000/work/">Work</a></li>
+                <li><a href="http://localhost:4000/articles/">Articles</a></li>
+                <li><a href="http://localhost:4000/contact/">Contact</a></li>
+                <li><a href="http://localhost:4000/about/">About</a></li>
+                <li><a href="http://localhost:4000/services/">Services</a></li>
             </ul>
-            <div class="social-share">
-                <span class='symbol'><a href="https://twitter.com/hypenotic">twitterbird</a></span></a>
-                <span class='symbol'><a href="https://www.facebook.com/hypenotic">facebook</a></span>
-                <span class='symbol'><a href="http://www.linkedin.com/company/hypenotic">linkedin</a></span>
-                <span class='symbol'><a href="https://github.com/hypenotic">githubalt</a></span>
-                <span class='symbol'><a href="https://plus.google.com/108348294269297908661/posts">googleplus</a></span>
-            </div>
         </nav>
     </header>
 </section>
-<div class="post">
-  <h1 class="post-title">The Poppy Effect</h1>
-  <span class="post-date">11 Jan 2010</span>
-  <span class="post-author"></span>
-  <p>Let&#8217;s call it the &#8220;Poppy Effect.&#8221; You spend a couple of bucks on a Poppy around Remembrance Day to recall <a href="http://www.vac-acc.gc.ca/remembers/sub.cfm?source=canrem">Canadian Veterans </a>and to support the efforts of the <a href="http://legion.ca/Home/mission_e.cfm">Royal Canadian Legion.</a> The Poppy Effect sets the barrier to entry very low, so that you are inclined to sign on for a cause. By opting to wear the Poppy you&#8217;ve aligned yourself with the issue at hand. It&#8217;s now the organization&#8217;s role to cultivate that relationship so you become a supporter, and ultimately an evangelist.</p>
+<section role="main">
+    <article>
+        <p class="meta"><i>11 Jan 2010</i></p>
+        <h1>The Poppy Effect</h1>
+        <p class="meta"><span class="sub-meta">By</span>  <span class="sub-meta">in</span> category</p>
+        <p>Let&#8217;s call it the &#8220;Poppy Effect.&#8221; You spend a couple of bucks on a Poppy around Remembrance Day to recall <a href="http://www.vac-acc.gc.ca/remembers/sub.cfm?source=canrem">Canadian Veterans </a>and to support the efforts of the <a href="http://legion.ca/Home/mission_e.cfm">Royal Canadian Legion.</a> The Poppy Effect sets the barrier to entry very low, so that you are inclined to sign on for a cause. By opting to wear the Poppy you&#8217;ve aligned yourself with the issue at hand. It&#8217;s now the organization&#8217;s role to cultivate that relationship so you become a supporter, and ultimately an evangelist.</p>
 
 <p>Many organizations have leveraged the Poppy Effect to great success; Pink, white, yellow, red ribbons abound all for good causes organizers hope will, in turn, lead you to give greater support to <a href="http://www.cbcf.org/">breast cancer,</a> <a href="www.whiteribbon.ca">violence against women</a>, <a href="http://www.redfridays.ca/yellowribbon.htm">Canadian troops</a>, and <a href="http://www.canfar.com/index.php?option=com_frontpage&amp;Itemid=1&amp;lang=en">AIDS</a>. Certainly <a href="http://cwt.sa.utoronto.ca/">CharityWate</a>r is the model for how to attract people to a party, and then turn those revellers into an army of supporters. A Toronto <a href="http://toronto.twestival.com/">Twestival</a> in support of the organization raised over $6,000. Not a whole heck of alot of money, but a good start in relationship building.</p>
 
@@ -85,56 +79,22 @@
 <li>  Follow through. If you don&#8217;t leverage the opportunity once they&#8217;ve walked through the door, you&#8217;ve not only wasted your time, but you may actually create a negative perception of your organization. After their party CharityWater sent participants <a href="http://www.charitywater.org/twestival/">videos of wells their dollars dug</a>.</li>
 </ul>
 
-</div>
-
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    
-      <li>
-        <h3>
-          <a href="http://hypenotic.github.io/how-looking-to-rent-in-toronto-can-teach-a-few-lessons-in-marketing/">
-            How looking to rent in Toronto can teach a few lessons in marketing
-            <small>28 Apr 2014</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="http://hypenotic.github.io/go-home-lake-ontario-lakes-project/">
-            Go Home Lake: Ontario Lakes Project
-            <small>28 Jan 2014</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="http://hypenotic.github.io/the-kitchen-party-approach-to-web-design-dev/">
-            The Kitchen Party approach to Web Design &#038; Dev
-            <small>22 Jan 2014</small>
-          </a>
-        </h3>
-      </li>
-    
-  </ul>
-</div>
-
+    </article>
+</section>
 <footer>
 	<div class="footer-inner">
 		<div class="content">
 			<h5>About us</h5>
 			<p>
-				Hypenotic is a marketing strategy, design & development firm that chooses to use its powers for good. We’re a certified founding member of B Corp in Canada, and if you don’t know what that is, it’s time you do.  Since ’98, we’ve helped a lot of interesting people do important things. We create relevant communications and useful experiences. <a href="/about">Find out more.</a>
+				Hypenotic is a marketing strategy, design & development firm that chooses to use its powers for good. We’re a certified founding member of B Corp in Canada.  Since ’98, we’ve helped a lot of interesting people do important things. We create relevant communications and useful experiences. <a href="/about">Find out more.</a>
 			</p>
-			<p>
-				<span class='symbol'><a href="https://twitter.com/hypenotic">circletwitterbird</a></span></a>
-				<span class='symbol'><a href="https://www.facebook.com/hypenotic">circlefacebook</a></span>
-				<span class='symbol'><a href="http://www.linkedin.com/company/hypenotic">circlelinkedin</a></span>
-				<span class='symbol'><a href="https://github.com/hypenotic">circlegithubalt</a></span>
-				<span class='symbol'><a href="https://plus.google.com/108348294269297908661/posts">circlegoogleplus</a></span>
-			</p>
+			<div class="social-share">
+			<span class='symbol'><a href="https://twitter.com/hypenotic">circletwitterbird</a></span></a>
+			<span class='symbol'><a href="https://www.facebook.com/hypenotic">circlefacebook</a></span>
+			<span class='symbol'><a href="http://www.linkedin.com/company/hypenotic">circlelinkedin</a></span>
+			<span class='symbol'><a href="https://github.com/hypenotic">circlegithubalt</a></span>
+			<span class='symbol'><a href="https://plus.google.com/108348294269297908661/posts">circlegoogleplus</a></span>
+			</div>
 		</div>
 
 		<div class="content">
@@ -151,29 +111,30 @@
           </form>
 		</div>
 
-
 		<div class="content">
 			<h5>Articles</h5>
 			<ul>  
 				  
-				   <li><a href="http://hypenotic.github.io/how-looking-to-rent-in-toronto-can-teach-a-few-lessons-in-marketing/">How looking to rent in Toronto can teach a few lessons in marketing</a></li>  
+				   <li><a href="http://localhost:4000/how-looking-to-rent-in-toronto-can-teach-a-few-lessons-in-marketing/">How looking to rent in Toronto can teach a few lessons in marketing</a></li>  
 				  
-				   <li><a href="http://hypenotic.github.io/go-home-lake-ontario-lakes-project/">Go Home Lake: Ontario Lakes Project</a></li>  
+				   <li><a href="http://localhost:4000/go-home-lake-ontario-lakes-project/">Go Home Lake: Ontario Lakes Project</a></li>  
 				  
-				   <li><a href="http://hypenotic.github.io/the-kitchen-party-approach-to-web-design-dev/">The Kitchen Party approach to Web Design &#038; Dev</a></li>  
+				   <li><a href="http://localhost:4000/the-kitchen-party-approach-to-web-design-dev/">The Kitchen Party approach to Web Design &#038; Dev</a></li>  
 				  
-				   <li><a href="http://hypenotic.github.io/what-it-means-to-beta-test-2/">What it Means to Beta Test</a></li>  
+				   <li><a href="http://localhost:4000/what-it-means-to-beta-test-2/">What it Means to Beta Test</a></li>  
 				  
-				   <li><a href="http://hypenotic.github.io/social-media-is-a-tactic-not-a-strategy/">Social media is a tactic, not a strategy</a></li>  
+				   <li><a href="http://localhost:4000/social-media-is-a-tactic-not-a-strategy/">Social media is a tactic, not a strategy</a></li>  
 				  
 			</ul>
-		</div>
-		
+		</div>	
 	</div>
 	<div class="footer-inner">
-		<p class="small"><b><a href="/contact">Let's talk</a></b> | &copy; 1998 - 2014 Hypenotic. All Rights Reserved.</p>
+		<p class="small">&copy; 1998 - 2014 Hypenotic Inc. All Rights Reserved.</p>
 	</div>
 </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://localhost:4000/js/app.min.js"></script>
 
 <script>
     jQuery(document).ready(function() {

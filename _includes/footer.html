@@ -3,15 +3,15 @@
 		<div class="content">
 			<h5>About us</h5>
 			<p>
-				Hypenotic is a marketing strategy, design & development firm that chooses to use its powers for good. We’re a certified founding member of B Corp in Canada, and if you don’t know what that is, it’s time you do.  Since ’98, we’ve helped a lot of interesting people do important things. We create relevant communications and useful experiences. <a href="/about">Find out more.</a>
+				Hypenotic is a marketing strategy, design & development firm that chooses to use its powers for good. We’re a certified founding member of B Corp in Canada.  Since ’98, we’ve helped a lot of interesting people do important things. We create relevant communications and useful experiences. <a href="/about">Find out more.</a>
 			</p>
-			<p>
-				<span class='symbol'><a href="https://twitter.com/hypenotic">circletwitterbird</a></span></a>
-				<span class='symbol'><a href="https://www.facebook.com/hypenotic">circlefacebook</a></span>
-				<span class='symbol'><a href="http://www.linkedin.com/company/hypenotic">circlelinkedin</a></span>
-				<span class='symbol'><a href="https://github.com/hypenotic">circlegithubalt</a></span>
-				<span class='symbol'><a href="https://plus.google.com/108348294269297908661/posts">circlegoogleplus</a></span>
-			</p>
+			<div class="social-share">
+			<span class='symbol'><a href="https://twitter.com/hypenotic">circletwitterbird</a></span></a>
+			<span class='symbol'><a href="https://www.facebook.com/hypenotic">circlefacebook</a></span>
+			<span class='symbol'><a href="http://www.linkedin.com/company/hypenotic">circlelinkedin</a></span>
+			<span class='symbol'><a href="https://github.com/hypenotic">circlegithubalt</a></span>
+			<span class='symbol'><a href="https://plus.google.com/108348294269297908661/posts">circlegoogleplus</a></span>
+			</div>
 		</div>
 
 		<div class="content">
@@ -28,7 +28,6 @@
           </form>
 		</div>
 
-
 		<div class="content">
 			<h5>Articles</h5>
 			<ul>  
@@ -36,13 +35,15 @@
 				   <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>  
 				{% endfor %}  
 			</ul>
-		</div>
-		
+		</div>	
 	</div>
 	<div class="footer-inner">
-		<p class="small"><b><a href="/contact">Let's talk</a></b> | &copy; 1998 - {{ site.time | date: '%Y' }} Hypenotic. All Rights Reserved.</p>
+		<p class="small">&copy; 1998 - {{ site.time | date: '%Y' }} Hypenotic Inc. All Rights Reserved.</p>
 	</div>
 </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/js/app.min.js"></script>
 
 <script>
     jQuery(document).ready(function() {

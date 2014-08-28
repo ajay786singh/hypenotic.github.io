@@ -15,6 +15,16 @@ module.exports = function(grunt) {
       }
     },
 
+    prettysass: {
+        options: {
+            alphabetize: false,
+            indent: 4
+        },
+        app: {
+            src: ['sass/**/*.scss']
+        },
+    },
+/*
     concat: {
       dist: {
         src: [
@@ -31,6 +41,19 @@ module.exports = function(grunt) {
         dest: 'js/build/production.min.js'
       }
     },
+*/
+
+uglify: {
+            build: {
+                options: {
+                    mangle: false
+                },
+                files: {
+                    'js/app.min.js': ['js/build/*.js']
+                }
+            }
+        },
+
 
     imagemin: {
       dynamic: {
@@ -151,9 +174,9 @@ module.exports = function(grunt) {
   require('load-grunt-tasks')(grunt);
 
 
-  grunt.registerTask('default', ['concat', 'uglify', 'sass', 'imagemin', 'jekyll']);
+  grunt.registerTask('default', ['concat', 'uglify', 'sass', 'prettysass', 'imagemin', 'jekyll']);
 
-  grunt.registerTask('js', ['concat', 'uglify']);
+  grunt.registerTask('js', ['uglify']);
 
   grunt.registerTask('server', ['connect', 'watch']);
 
