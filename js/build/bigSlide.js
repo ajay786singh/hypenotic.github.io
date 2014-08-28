@@ -11,7 +11,7 @@
       'push': ('.push'),
       'side': 'right',
       'menuWidth': '15.625em',
-      'speed': '500'
+      'speed': '300'
     }, options);
 
     var menuLink = this,
