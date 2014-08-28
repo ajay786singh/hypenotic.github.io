@@ -1,12 +1,16 @@
 ---
 layout: default
 ---
+<!--
+<div class="banner">
+	<img src="http://hypenotic.com/wordpress/wp-content/uploads/2013/12/Buttons_2014_v3_ac_1400px_wshadow_BIGGER.jpg">
+</div>
+-->
 
-	<div class="banner">
-        <span class="bannerimage" style="background-image:url('http://hypenotic.com/wordpress/wp-content/uploads/2013/12/Buttons_2014_v3_ac_1400px_wshadow_BIGGER.jpg'); display: block;">
-            <span class="inner"></span>
-        </span>
-	</div>
+{% if page.image.feature %}
+  <h1>featured image</h1>
+{% endif %}
+
 
 <section role="main">
 	<article>

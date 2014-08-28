@@ -10,7 +10,7 @@ module.exports = function(grunt) {
           style: 'compressed'
         },
         files: {
-          'style.css': 'sass/style.scss'
+          'style.css': 'assets/sass/style.scss'
         }
       }
     },
@@ -21,7 +21,7 @@ module.exports = function(grunt) {
             indent: 4
         },
         app: {
-            src: ['sass/**/*.scss']
+            src: ['assets/sass/**/*.scss']
         },
     },
 /*
@@ -49,7 +49,7 @@ uglify: {
                     mangle: false
                 },
                 files: {
-                    'js/app.min.js': ['js/build/*.js']
+                    'assets/js/app.min.js': ['assets/js/build/*.js']
                 }
             }
         },
@@ -144,7 +144,7 @@ uglify: {
         livereload: true,
       },
      sass: {
-        files: ['sass/**/*.{scss,sass}'],
+        files: ['assets/sass/**/*.{scss,sass}'],
         tasks: ['sass', 'jekyll'],
         options: {
           spawn: false,
@@ -174,7 +174,7 @@ uglify: {
   require('load-grunt-tasks')(grunt);
 
 
-  grunt.registerTask('default', ['concat', 'uglify', 'sass', 'prettysass', 'imagemin', 'jekyll']);
+  grunt.registerTask('default', ['uglify', 'sass', 'prettysass', 'imagemin', 'jekyll']);
 
   grunt.registerTask('js', ['uglify']);
 

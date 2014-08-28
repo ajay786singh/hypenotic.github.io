@@ -10,7 +10,6 @@ fieldset {
     }
 }
 
-
 input,
 label,
 select {
@@ -56,8 +55,8 @@ select[multiple=multiple] {
     }
 }
 
-footer input[type="submit"]  {
-   -webkit-font-smoothing: antialiased;
+footer input[type="submit"] {
+    -webkit-font-smoothing: antialiased;
     background-color: $yellow;
     border-radius: $base-border-radius;
     color: $dark-gray;
