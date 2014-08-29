@@ -152,7 +152,7 @@ uglify: {
       },
 
       html: {
-        files: ['*.html', '_includes/*.html', '_layouts/*.html'],
+        files: ['*.html', '_includes/*.html', '_layouts/*.html', '*/*.html'],
         tasks: ['jekyll'],
         options: {
           spawn: false,
