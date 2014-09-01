@@ -1,12 +1,12 @@
 ---
 title: 'The Kitchen Party approach to Web Design &#038; Dev'
-author: Barry Martin
+author: bmartin
+avatar: /images/hare.png
 layout: post
-permalink: /the-kitchen-party-approach-to-web-design-dev/
 dsq_thread_id:
   - 2160255842
-categories:
-  - Method and Craft
+  
+  
 ---
 We have people over for dinner often. Invariably, my wife asks me to please prepare in advance as much as possible.
 

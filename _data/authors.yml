@@ -1,11 +1,11 @@
 # Authors
 
-Barry Martin:
+bmartin:
   name: Barry Martin
   web: http://thewhip.com
   email: billy@rick.com
   bio: "What do you want, jewels? I am a very extravagant man."
-  avatar: bio-photo-2.jpg
+  avatar: phone-icon.jpg
   twitter: extravagantman
   google:
     plus: BillyRick
@@ -18,3 +18,7 @@ cornelius_fiddlebone:
   twitter: rhymeswithsackit
   google:
     plus: CorneliusFiddlebone
+authors:
+muratcorlu:
+  name: Murat Corlu
+  avatar: 2906955ae59c795275979d3782d7bfca

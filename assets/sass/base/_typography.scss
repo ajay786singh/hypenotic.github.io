@@ -7,21 +7,21 @@ body {
     line-height: $unitless-line-height;
 }
 
+//Modular scale based on: http://modularscale.com/scale/?px1=20&px2=734&ra1=1.618&ra2=0
+
 h1, h2, h3, h4, h5, h6 {
     font-family: $header-font-family;
-    //line-height: 1em;
-    margin: 0;
     text-rendering: optimizeLegibility;
-    // Fix the character spacing for headings
 }
 
 h1 {
-    font-size: $base-font-size * 1.5;
+    font-size: $base-font-size;
     text-transform: uppercase;
-    line-height: $base-font-size * 1.15;
     @include media($bp-large) {
-        font-size: $base-font-size * 4;
-        // 16 * 4 = 63px
+        font-size: $base-font-size * 4.125;
+        // 16 * 4.125 = 66px
+        line-height: 1.0909em;
+        margin-bottom: 0.3636em;
     }
 
     .single & {
@@ -30,44 +30,52 @@ h1 {
 }
 
 h2 {
-    font-size: $base-font-size * 1.5;
+    font-size: $base-font-size;
     @include media($bp-large) {
-        font-size: $base-font-size * 3;
-        // 16 * 3 = 48px
+        font-size: $base-font-size * 3.25;
+        // 16 * 3.25 = 52px
+        line-height: 1.3846em;
+        margin-bottom: 0.4615em;
     }
 }
 
 h3 {
-    font-size: $base-font-size * 1.5;
+    font-size: $base-font-size;
     @include media($bp-large) {
-        font-size: $base-font-size * 2.5;
-        // 16 * 2.5 = 40px
+        font-size: $base-font-size * 2.5625;
+        // 16 * 2.5625 = 41px
+        line-height: 1.1707em;
+        margin-bottom: 0.5854em;
     }
 }
 
 h4 {
-    font-size: $base-font-size * 1.5;
+    font-size: $base-font-size;
     @include media($bp-large) {
-        font-weight: normal;
-        font-size: $base-font-size * 2.25;
-        line-height: $base-font-size;
-        // 16 * 2 = 36px
+        font-size: $base-font-size * 2;
+        // 16 * 2 = 32px
+        line-height: 1.5em;
+        margin-bottom: 0.75em;
     }
 }
 
 h5 {
-    font-size: $base-font-size * 1.5;
+    font-size: $base-font-size;
     @include media($bp-large) {
-        font-size: $base-font-size * 1.5;
-        // 16 * 1.5 = 24px
+        font-size: $base-font-size * 1.5625;
+        // 16 * 1.5625 = 25px
+        line-height: 1.92em;
+        margin-bottom: 0.96em;
     }
 }
 
 h6 {
     font-size: $base-font-size;
     @include media($bp-large) {
-        font-size: $base-font-size;
-        // 16px
+        font-size: $base-font-size * 1.25;
+        // 16 * 1.25 = 20px
+        line-height: 1.2em;
+        margin-bottom: 1.2em;
     }
 }
 
@@ -77,11 +85,16 @@ p, ul, ol {
     @include media($bp-large) {
         font-size: $base-font-size * 1.25;
         // 16 * 1.25 = 20px
+        line-height: 1.5em;
+        margin-bottom: 1.5em;
     }
+
 
     footer & {
         font-family: $sans-serif;
         font-size: $base-font-size;
+        line-height: $base-line-height;
+        margin-bottom: $base-line-height;
     }
 }
 
@@ -167,10 +180,12 @@ nav {
 }
 
 article p:first-of-type {
-    font-size: $base-font-size * 1.5;
+    font-size: $base-font-size;
     @include media($bp-large) {
-        font-size: $base-font-size * 2.5;
-        // 16 * 2.5 = 40px
+        font-size: $base-font-size * 2.5625;
+        // 16 * 2.5625 = 41px
+        line-height: 1.1707em;
+        margin-bottom: 0.5854em;
     }
 }
 

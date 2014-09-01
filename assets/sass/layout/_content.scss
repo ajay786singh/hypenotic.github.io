@@ -1,5 +1,5 @@
 section[role=main] {
-    padding-top: 50px;
+    padding: 50px 0 50px 0;
     @include outer-container;
     article {
         @include media($bp-large) {
@@ -9,34 +9,11 @@ section[role=main] {
     }
 }
 
-.archive-container {
-    //padding-top: 50px;
-    article {
-        @include outer-container;
-    }
-}
-
-.archive {
-    border-top: 1px solid #ccc;
-    padding: 60px 20px 60px 20px;
-    text-align: center;
-    @include media($bp-large) {
-        p, h4 {
-            @include pad(0px 250px 0px 250px);
-        }
-    }
-
-    .paged-1 &:first-child {
-        background-color: #333;
-        p, h4 {
-            color: $white;
-        }
-    }
-}
-
 .avatar {
     border-radius: 50%;
     margin-bottom: .7em;
+    width: 130px;
+    height: 130px;
 }
 
 .clients {
@@ -66,39 +43,4 @@ section[role=main] {
     @include media($bp-large) {
         @include span-columns(8 of 12);
     }
-}
-
-#site-wrapper {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 5000px;
-    /* Temp: Simulates a tall page. */
-}
-
-#site-canvas {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    -webkit-transition: .3s ease all;
-    transition: .3s ease all;
-    padding: 5% 0;
-    /* Temp: Just spacing. */
-}
-
-#site-menu {
-    width: 300px;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: -300px;
-    background: #428bca;
-    padding: 15px;
-}
-
-#site-wrapper.show-nav #site-canvas {
-    -webkit-transform: translateX(300px);
-    transform: translateX(300px);
 }

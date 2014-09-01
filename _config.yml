@@ -3,7 +3,9 @@ markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
+#permalink:        pretty
+permalink:        /:categories/:title
+
 
 # Setup
 title:            Hypenotic
@@ -22,3 +24,6 @@ author:
 version:          1.0.0
 github:
   repo:           https://github.com/poole/poole
+
+
+  data_source: ./_data

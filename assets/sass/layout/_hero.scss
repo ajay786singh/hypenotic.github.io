@@ -8,17 +8,9 @@ section[role=slider] {
         @include outer-container;
         @include clearfix;
         hgroup {
-            padding-top: 23vh;
+            padding-top: 16vh;
             h1 {
-                padding: .2em .3em 0 .3em;
                 text-shadow: -5px 5px 0px #fff;
-            }
-            @include media($bp-large) {
-                padding-top: 23vh;
-                h1 {
-                    padding-top: .2em;
-                    text-shadow: -5px 5px 0px #fff;
-                }
             }
         }
     }

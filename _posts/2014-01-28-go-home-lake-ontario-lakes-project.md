@@ -6,15 +6,17 @@ permalink: /go-home-lake-ontario-lakes-project/
 categories:
   - Culture
 ---
-<p style="text-align: left;">
-  <span style="font-size: 1em; line-height: 1.5em;"><a href="http://hypenotic.com/wordpress/wp-content/uploads/2014/01/gohomelakeprintweb.png"><img class="aligncenter size-full wp-image-12454" alt="gohomelakeprintweb" src="http://hypenotic.com/wordpress/wp-content/uploads/2014/01/gohomelakeprintweb.png" width="808" height="424" /></a></span>
-</p>
 
-<span style="font-size: 1em; line-height: 1.5em;">The Lake You Can&#8217;t Wait To Leave</span>
 
-<span style="font-size: 1em; line-height: 1.5em;">Go Home Lake, in the tow</span><span style="font-size: 1em; line-height: 1.5em;">nship of Georgian Bay, is situated in a hot spot of other lakes and islands with equally simple and informative names. There’s Paradise Bay to the north. Bay Of Many Winds lies to the south, Black Squirrel Island to the west, and the list goes on and on (check out a map </span><a style="font-size: 1em; line-height: 1.5em;" href="https://maps.google.ca/maps?q=go+home+lake+ontario&ie=UTF-8&hq=&hnear=0x4d2afb5a2754ee03:0x132e9d9bca11bb22,Go+Home+Lake&gl=ca&ei=FrTFUqyjAqTk2AW374DQBA&ved=0CKkBELYD">here</a><span style="font-size: 1em; line-height: 1.5em;">!)</span>
+
+
+The Lake You Can't Wait To Leave
+
+Go Home Lake, in the township of Georgian Bay, is situated in a hot spot of other lakes and islands with equally simple and informative names. There’s Paradise Bay to the north. Bay Of Many Winds lies to the south, Black Squirrel Island to the west, and the list goes on and on (check out a map </span><a style="font-size: 1em; line-height: 1.5em;" href="https://maps.google.ca/maps?q=go+home+lake+ontario&ie=UTF-8&hq=&hnear=0x4d2afb5a2754ee03:0x132e9d9bca11bb22,Go+Home+Lake&gl=ca&ei=FrTFUqyjAqTk2AW374DQBA&ved=0CKkBELYD">here</a><span style="font-size: 1em; line-height: 1.5em;">!)</span>
 
 These names made me wonder whether they were named for obvious reasons. Turns out, Go Home Lake got its name from the loggers that would ‘go home’ after a long, hard day of sending timber down a connecting river.
+
+<a href="http://hypenotic.com/wordpress/wp-content/uploads/2014/01/gohomelakeprintweb.png"><img class="aligncenter size-full wp-image-12454" alt="gohomelakeprintweb" src="http://hypenotic.com/wordpress/wp-content/uploads/2014/01/gohomelakeprintweb.png" width="808" height="424" /></a>
 
 Wanting to leave a lake reminded me of a recent experience crashing at a friends lakeside cottage with 16 other people.
 

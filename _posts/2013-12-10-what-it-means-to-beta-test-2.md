@@ -8,13 +8,12 @@ dsq_thread_id:
 categories:
   - User Experience Design
 ---
-<p style="text-align: center;">
-  <a href="http://hypenotic.com/wordpress/wp-content/uploads/2013/12/ArcticPlanet.png"><img class="aligncenter  wp-image-12139" alt="ArcticPlanet" src="http://hypenotic.com/wordpress/wp-content/uploads/2013/12/ArcticPlanet.png" width="864" height="486" /></a>
-</p>
 
 Last week, indie-game studio [Chucklefish][1] released the Beta version of their first project—an extraterrestrial sandbox adventure game called [Starbound][2].
 
 > In Starbound, you take on the role of a character who’s just fled from their home planet, only to crash-land on another. From there you’ll embark on a quest to survive, discover, explore and fight your way across an infinite universe.
+
+<a href="http://hypenotic.com/wordpress/wp-content/uploads/2013/12/ArcticPlanet.png"><img class="aligncenter  wp-image-12139" alt="ArcticPlanet" src="http://hypenotic.com/wordpress/wp-content/uploads/2013/12/ArcticPlanet.png" width="864" height="486" /></a>
 
 This isn&#8217;t a game review post—although the game is excellent and if you or someone you know likes sandbox casual games, then you should [buy it here][3], and my apologies to your friends and family who will probably not hear from you for hours at a time due to how awesome it is&#8230;but I digress—this blog post is bringing to light the importance of Beta testing and how it applies not only to video games, but also software and websites in general.
 
