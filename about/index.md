@@ -2,6 +2,8 @@
 title: About Us
 author: admin
 layout: page
+image:
+  feature: bg-about.jpg
 dsq_thread_id:
   - 
 ---

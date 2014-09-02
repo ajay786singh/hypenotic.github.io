@@ -33,7 +33,7 @@
         })(document);
     </script>
 </head>
-<body class="wrap push">
+<body class="wrap push {{ page.url | remove: 'index.html' | remove: '/' }}">
 <section role="banner">
     <header>
         <div class="logo">

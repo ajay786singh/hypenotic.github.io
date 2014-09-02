@@ -26,4 +26,4 @@ github:
   repo:           https://github.com/poole/poole
 
 
-  data_source: ./_data
+data_source: ./_data

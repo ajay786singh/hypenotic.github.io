@@ -10,12 +10,12 @@ layout: default
         <img class="avatar" src="http://placehold.it/130x130">
         <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
         {% capture readtime %}{{ post.content | number_of_words | plus:91 | divided_by:180.0 | append:'.' | split:'.' | first }}{% endcapture %}
-{% if readtime == '0' %} &lt; 1{% else %}{{ readtime }}{% endif %} min. read
-        <p>Written by {{ author.name }} on {{ post.date | date: "%B %-d, %Y"}} in <a href="/{{ post.categories }}">{{ post.categories | first | capitalize }}</a></p>
-        <!--taken from http://sachaschmid.ch/articles/jekyll-word-counts/ -->    
+        {% if readtime == '0' %} &lt; 1{% else %}{{ readtime }}{% endif %} minute read
+        <p>Written by {{ author.name }} on {{ post.date | date: "%B %-d, %Y"}} in <a href="/{{ post.categories }}">{{ post.categories | first | capitalize }}</a></p>  
     </div>
     {% endfor %}
 </section>
+
 
 <div class="pagination">
     {% if paginator.previous_page %}
