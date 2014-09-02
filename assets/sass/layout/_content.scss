@@ -1,5 +1,7 @@
 section[role=main] {
+@include media($bp-large) {
     padding: 50px 0 50px 0;
+    }
     @include outer-container;
     article {
         @include media($bp-large) {
@@ -37,4 +39,11 @@ section[role=main] {
             right: 0;
         }
     }
+}
+
+.image-wrap {
+
+   height: 100vh;
+
+
 }

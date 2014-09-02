@@ -2,6 +2,8 @@
 title: Services
 author: admin
 layout: page
+image:
+    feature: bg-services.jpg
 
 ---
 At heart, we&#8217;re a User Experience Design shop. Before anything else, we think about the people who need to notice, interact with and be influenced by the things we make.
