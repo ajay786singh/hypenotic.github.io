@@ -1,18 +1,19 @@
 .archive-container {
     padding-top: 50px;
     display: block;
-    article {
-        @include outer-container;
-    }
 }
 
 .archive {
     border-top: 1px solid #ccc;
-    padding: 60px 20px 60px 20px;
     text-align: center;
-    @include media($bp-large) {
-        p, h4 {
-            @include pad(0px 250px 0px 250px);
+    .inner {
+        @include outer-container;
+        @include media($bp-large) {
+            .test {
+                @include span-columns(6);
+                @include shift(3);
+                @include pad(60px 0 30px 0);
+            }
         }
     }
 
@@ -23,3 +24,5 @@
         }
     }
 }
+
+

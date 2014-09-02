@@ -1,7 +1,8 @@
 section[role=main] {
-@include media($bp-large) {
-    padding: 50px 0 50px 0;
+    @include media($bp-large) {
+        padding: 50px 0 50px 0;
     }
+
     @include outer-container;
     article {
         @include media($bp-large) {
@@ -13,7 +14,6 @@ section[role=main] {
 
 .avatar {
     border-radius: 50%;
-    margin-bottom: .7em;
     width: 130px;
     height: 130px;
 }
@@ -42,8 +42,5 @@ section[role=main] {
 }
 
 .image-wrap {
-
-   height: 100vh;
-
-
+    height: 100vh;
 }

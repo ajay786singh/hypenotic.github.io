@@ -55,16 +55,21 @@ uglify: {
         },
 
 
-    imagemin: {
-      dynamic: {
-        files: [{
-          expand: true,
-          cwd: 'img/',
-          src: ['**/*.{png,jpg,gif,ico}'],
-          dest: 'images/'
-        }]
-      }
-    },
+    // image optimization
+        imagemin: {
+            dist: {
+                options: {
+                    optimizationLevel: 7,
+                    progressive: true
+                },
+                files: [{
+                    expand: true,
+                    cwd: 'images/',
+                    src: ['**/*.{png,jpg,gif}'],
+                    dest: 'images/'
+                }]
+            }
+        },
 
     jekyll: {
       options: {                          

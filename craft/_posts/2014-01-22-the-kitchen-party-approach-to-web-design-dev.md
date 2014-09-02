@@ -1,7 +1,6 @@
 ---
 title: 'The Kitchen Party approach to Web Design &#038; Dev'
-author: bmartin
-avatar: /images/hare.png
+author: Barry Martin
 layout: post
 dsq_thread_id:
   - 2160255842

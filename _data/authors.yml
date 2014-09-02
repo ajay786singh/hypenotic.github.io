@@ -1,24 +1,40 @@
 # Authors
 
-bmartin:
+Barry Martin:
   name: Barry Martin
-  web: http://thewhip.com
-  email: billy@rick.com
+  email: bam@hypenotic.com
   bio: "What do you want, jewels? I am a very extravagant man."
   avatar: phone-icon.jpg
   twitter: extravagantman
-  google:
-    plus: BillyRick
 
-cornelius_fiddlebone:
-  name: Cornelius Fiddlebone
-  email: cornelius@thewhip.com
+Jennifer Phelan:
+  name: Jennifer Phelan
+  email: jen@hypenotic.com
+  bio: "I ordered what?"
+  avatar: avatar-jphalen.png
+  twitter: rhymeswithsackit
+
+Lionel Mann:
+  name: Lionel Mann
+  email: lionel@hypenotic.com
   bio: "I ordered what?"
   avatar: bio-photo.jpg
   twitter: rhymeswithsackit
-  google:
-    plus: CorneliusFiddlebone
-authors:
-muratcorlu:
-  name: Murat Corlu
-  avatar: 2906955ae59c795275979d3782d7bfca
+
+Rick Stender:
+  name: Rick Stender
+  email: rick@hypenotic.com
+  bio: "I ordered what?"
+  avatar: bio-photo.jpg
+  twitter: rhymeswithsackit
+
+Jodi Lastman:
+  name: Jodi Lastman
+  email: jodi@hypenotic.com
+  bio: "I ordered what?"
+  avatar: bio-photo.jpg
+  twitter: rhymeswithsackit
+
+
+
+
