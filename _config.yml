@@ -10,7 +10,7 @@ permalink:        /:categories/:title
 # Setup
 title:            Hypenotic
 tagline:          The Jekyll Butler
-url:              http://getpoole.com
+url:              http://hypenotic.github.io
 paginate:         10
 paginate_path: "/articles/page:num"
 #baseurl:         http://localhost:4000

@@ -4,7 +4,7 @@ Barry Martin:
   name: Barry Martin
   email: bam@hypenotic.com
   bio: "What do you want, jewels? I am a very extravagant man."
-  avatar: phone-icon.jpg
+  avatar: avatar-bmartin.png
   twitter: extravagantman
 
 Jennifer Phelan:
@@ -25,16 +25,22 @@ Rick Stender:
   name: Rick Stender
   email: rick@hypenotic.com
   bio: "I ordered what?"
-  avatar: bio-photo.jpg
+  avatar: avatar-rstender.png
   twitter: rhymeswithsackit
 
 Jodi Lastman:
   name: Jodi Lastman
   email: jodi@hypenotic.com
   bio: "I ordered what?"
-  avatar: bio-photo.jpg
+  avatar: avatar-jlastman.png
   twitter: rhymeswithsackit
 
+Amanda Cohen:
+  name: Amanda Cohen
+  email: jodi@hypenotic.com
+  bio: "I ordered what?"
+  avatar: avatar-acohen.png
+  twitter: rhymeswithsackit
 
 
 
