@@ -7,14 +7,14 @@ layout: default
 <section role="main">
     <article>
         <p class="meta"><i>{{ page.date | date_to_string }}</i></p>
-        {% capture read_time %}
-  			{{ page.content | number_of_words | divided_by: 180 }}
-		{% endcapture %}
-		{% if read_time != '0' %}
-  			{{ read_time }}
-		{% else %}
-  			1
-		{% endif %} minute read
+        {% if site.readtime %}
+            {% if site.wpm %}
+                {% assign readtime = page.content | strip_html | number_of_words | append: '.0' | divided_by:site.wpm %}
+            {% else %}
+                {% assign readtime = page.content | strip_html | number_of_words | append: '.0' | divided_by:180 %}
+            {% endif %}
+        {% endif %}
+        <span class="time">{{ readtime }}</span> minute read
         <h1>{{ page.title }}</h1>
         <p class="meta"><span class="sub-meta">By</span> {{ author.name }} <span class="sub-meta">in</span> <a href="/{{ page.categories }}">{{ page.categories }}</a></p>
         {{ content }}

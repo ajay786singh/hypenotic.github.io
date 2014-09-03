@@ -27,3 +27,6 @@ github:
 
 
 data_source: ./_data
+
+readtime:		true
+wpm:			200

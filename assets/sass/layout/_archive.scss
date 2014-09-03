@@ -12,17 +12,14 @@
             .test {
                 @include span-columns(6);
                 @include shift(3);
-                @include pad(60px 0 30px 0);
+                @include pad(50px 0 20px 0);
             }
         }
     }
-
     .paged-1 &:first-child {
         background-color: #333;
-        p, h4 {
+        p, h4, a, small, .fa-clock-o {
             color: $white;
         }
     }
 }
-
-

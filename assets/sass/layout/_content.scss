@@ -1,9 +1,9 @@
 section[role=main] {
+    @include outer-container;
     @include media($bp-large) {
         padding: 50px 0 50px 0;
     }
 
-    @include outer-container;
     article {
         @include media($bp-large) {
             @include span-columns(7);
@@ -16,6 +16,7 @@ section[role=main] {
     border-radius: 50%;
     width: 130px;
     height: 130px;
+    margin-bottom: -20px;
 }
 
 .clients {
