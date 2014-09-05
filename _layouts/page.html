@@ -1,11 +1,19 @@
 ---
 layout: default
 ---
+{% if page.image.feature %}
+
+	<div class="fullscreen background" style="background-image:url('../images/{{ page.image.feature }}');" data-img-width="1600" data-img-height="750">
+	    <div class="content-a">
+	        <div class="content-b">
+	            Centered content
+	        </div>
+	    </div>
+	</div>
+
+{% endif %}
 
 <section role="main">
-	{% if page.image.feature %}
-  		<img src="../images/{{ page.image.feature }}" class="image-wrap">
-	{% endif %}
 	<article>
 		<h1>{{ page.title }}</h1>
 		{{ content }}
