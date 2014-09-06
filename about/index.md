@@ -2,6 +2,7 @@
 title: About Us
 author: admin
 layout: page
+headline: Turning missions into user-experiences
 image:
   feature: bg-about.jpg
 dsq_thread_id:

@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<section class="archive-container"> 
+    <div class="archive">
+        <article>
+           {% for post in site.categories.work %}
+
+<div style="height: 300px; overflow: hidden;">
+           <a href="{{ post.url }}"><img src="../images/{{ post.image.feature }}"></a>
+   </div>
+
+
+
+	{% endfor %}   
+        </article>
+    </div>
+
+</section>
+
+
+

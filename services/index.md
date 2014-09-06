@@ -2,6 +2,7 @@
 title: Services
 author: admin
 layout: page
+headline: We craft experiences
 image:
     feature: bg-services.jpg
 
