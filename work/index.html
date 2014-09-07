@@ -1,23 +1,12 @@
 ---
 layout: default
 ---
-
-<!--<section class="archive-container"> 
-    <div class="archive">
-        <article>-->
-           {% for post in site.categories.work %}
-
-<div style="height: 300px; width: 100%; overflow: hidden;">
-           <a href="{{ post.url }}"><img src="../images/{{ post.image.feature }}"></a>
-   </div>
-
-
-
-	{% endfor %}   
-      <!--   </article>
-   </div>
-
-</section>-->
-
-
-
+<section class="archive-container">
+	<div class="archive-work">
+		<ul>
+			{% for post in site.categories.work %}
+			<li><a href="{{ post.url }}"><img src="../images/{{ post.image.feature }}"></a></li>
+			{% endfor %}   
+		</ul>
+	</div>
+</section>

@@ -82,3 +82,27 @@ html, body {
     vertical-align: middle;
     text-align: center;
 }
+
+.archive-work {
+    @include clearfix;
+    ul {
+        line-height: 0;
+        margin-bottom: 0;
+        float: left;
+        width: 100%;
+        padding: 0;
+        list-style: none;
+        li {
+            float: left;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            @include media($bp-large) {
+                width: 33.33%;
+            }
+        a:hover {
+            opacity: 0.6;
+        }
+        }
+    }
+}

@@ -32,7 +32,7 @@ jQuery(document).ready(function($) {
 
   // Identify if visitor has a large enough viewport for parallaxing title
   function isLargeViewport() {
-    if($nav.css('position') === "relative") {
+    if($artHeaderInner.css('position') === "relative") {
       return false;
     } else {
       return true;

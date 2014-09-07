@@ -3,6 +3,7 @@ layout: default
 ---
 
 <section class="archive-container paged-{{ paginator.page }}"> 
+   
     {% for post in paginator.posts %}
     {% assign author = site.data.authors[post.author] %}
     <div class="archive">
@@ -25,6 +26,8 @@ layout: default
         </div>
     </div>
     {% endfor %}
+ 
+
 </section>
 
 <div class="pagination">
