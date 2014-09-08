@@ -18,8 +18,6 @@ layout: default
         <h1>{{ page.title }}</h1>
         <p class="meta"><span class="sub-meta">By</span> {{ author.name }} <span class="sub-meta">in</span> <a href="/{{ page.categories }}">{{ page.categories }}</a></p>
         {{ content }}
-    </article>
+        {% include comments.html %}
+   </article>
 </section>
-
-
-
